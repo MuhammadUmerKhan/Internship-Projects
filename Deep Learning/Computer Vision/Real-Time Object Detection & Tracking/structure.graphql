@@ -1,0 +1,25 @@
+real_time_tracking_project/
+│
+├── app/
+│   ├── camera.py             # Webcam handling and frame capture
+│   ├── detector.py           # YOLOv8 inference code
+│   ├── tracker.py            # DeepSORT or ByteTrack tracking logic
+│   ├── logger.py             # Logs entry timestamps to CSV or SQLite
+│   ├── alert.py              # Email alert system for restricted hours
+│   └── utils.py              # Helper functions (draw boxes, time, etc.)
+│
+├── static/
+│   └── css/, js/             # For Flask web UI (optional styling)
+│
+├── templates/
+│   └── index.html            # Flask frontend to show video stream
+│
+├── database/
+│   └── entries.db            # SQLite DB for storing logs (optional)
+│
+├── weights/
+│   └── yolov8n.pt            # Your trained or pre-trained YOLO model
+│
+├── run.py                    # Flask app entry point
+├── requirements.txt          # Dependencies
+└── README.md                 # Documentation

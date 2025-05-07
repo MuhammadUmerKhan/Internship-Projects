@@ -1,0 +1,24 @@
+2025-05-05 14:39:55,175 - INFO - Starting real-time tracking application
+2025-05-05 14:39:55,175 - INFO - Initializing camera
+2025-05-05 14:39:55,357 - INFO - Initializing YOLO detector with model: /home/muhammad/Internship Projects/Deep Learning/Computer Vision/Real-Time Object Detection & Tracking/weights/yolov8n.pt
+2025-05-05 14:39:55,512 - INFO - Initializing DeepSort tracker
+2025-05-05 14:39:57,211 - INFO - MobileNetV2 Embedder for Deep Sort initialised
+2025-05-05 14:39:57,211 - INFO - - gpu enabled: False
+2025-05-05 14:39:57,211 - INFO - - half precision: False
+2025-05-05 14:39:57,211 - INFO - - max batch size: 16
+2025-05-05 14:39:57,211 - INFO - - expects BGR: True
+2025-05-05 14:39:57,301 - INFO - DeepSort Tracker initialised
+2025-05-05 14:39:57,302 - INFO - - max age: 30
+2025-05-05 14:39:57,302 - INFO - - appearance threshold: 0.2
+2025-05-05 14:39:57,302 - INFO - - nms threshold: OFF
+2025-05-05 14:39:57,302 - INFO - - max num of appearance features: None
+2025-05-05 14:39:57,302 - INFO - - overriding track class : No
+2025-05-05 14:39:57,302 - INFO - - today given : No
+2025-05-05 14:39:57,302 - INFO - - in-build embedder : Yes
+2025-05-05 14:39:57,302 - INFO - - polygon detections : No
+2025-05-05 14:39:57,302 - INFO - Initializing CSV logging with log file: /home/muhammad/Internship Projects/Deep Learning/Computer Vision/Real-Time Object Detection & Tracking/database/entries.csv
+2025-05-05 14:39:57,302 - INFO - Using existing CSV log file: /home/muhammad/Internship Projects/Deep Learning/Computer Vision/Real-Time Object Detection & Tracking/database/entries.csv
+2025-05-05 14:39:58,667 - INFO - Logged track ID 1 at 2025-05-05 14:39:58
+2025-05-05 14:40:08,359 - INFO - Application interrupted by user
+2025-05-05 14:40:08,361 - INFO - Camera released
+2025-05-05 14:40:08,363 - INFO - Application shutdown complete

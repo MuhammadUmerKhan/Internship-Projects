@@ -1,0 +1,12 @@
+OpenChatGPT2/
+│
+├── app/
+│   ├── chatbot.py           # GPT-2 logic and chat history
+│   ├── gradio_app.py        # Gradio interface
+│   ├── discord_bot.py       # Discord interface
+│   ├── logger.py            # Optional: logging chats
+│   └── utils.py             # History, clean-up, etc.
+│
+├── requirements.txt
+├── README.md
+└── run.py                   # To start either UI

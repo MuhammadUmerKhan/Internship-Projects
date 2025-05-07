@@ -1,0 +1,510 @@
+2025-05-07 15:58:05,719 [INFO] ✅ API Key Found!
+2025-05-07 15:58:05,719 [INFO] ✅ Prompt Template Found!
+2025-05-07 15:59:48,265 [INFO] ✅ API Key Found!
+2025-05-07 15:59:48,265 [INFO] ✅ Prompt Template Found!
+2025-05-07 16:05:45,716 [INFO] ✅ API Key Found!
+2025-05-07 16:05:45,716 [INFO] ✅ Prompt Template Found!
+2025-05-07 16:05:45,908 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 16:06:22,600 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-07 16:06:22,609 [INFO] ✅ Translation Done!
+2025-05-07 16:06:22,609 [INFO] ====================================================================================
+2025-05-07 21:22:33,677 [INFO] ✅ API Key Found!
+2025-05-07 21:22:33,678 [INFO] ✅ Prompt Template Found!
+2025-05-07 21:22:34,127 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 21:22:51,504 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-07 21:22:51,512 [INFO] ✅ Translation Done!
+2025-05-07 21:22:51,513 [INFO] ====================================================================================
+2025-05-07 21:23:04,301 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-07 21:23:04,303 [INFO] ✅ Translation Done!
+2025-05-07 21:23:04,303 [INFO] ====================================================================================
+2025-05-07 21:23:15,975 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-07 21:23:15,977 [INFO] ✅ Translation Done!
+2025-05-07 21:23:15,977 [INFO] ====================================================================================
+2025-05-07 21:23:29,494 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-07 21:23:29,496 [INFO] ✅ Translation Done!
+2025-05-07 21:23:29,497 [INFO] ====================================================================================
+2025-05-07 21:27:32,410 [INFO] ✅ API Key Found!
+2025-05-07 21:27:32,410 [INFO] ✅ Prompt Template Found!
+2025-05-07 21:27:32,596 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 21:28:15,452 [INFO] ✅ API Key Found!
+2025-05-07 21:28:15,453 [INFO] ✅ Prompt Template Found!
+2025-05-07 21:28:15,742 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 21:28:27,333 [INFO] ✅ API Key Found!
+2025-05-07 21:28:27,333 [INFO] ✅ Prompt Template Found!
+2025-05-07 21:28:27,473 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 21:28:35,138 [INFO] ✅ API Key Found!
+2025-05-07 21:28:35,138 [INFO] ✅ Prompt Template Found!
+2025-05-07 21:28:35,412 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 21:28:37,194 [INFO] ✅ API Key Found!
+2025-05-07 21:28:37,197 [INFO] ✅ Prompt Template Found!
+2025-05-07 21:28:37,486 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 21:28:38,418 [INFO] ✅ API Key Found!
+2025-05-07 21:28:38,418 [INFO] ✅ Prompt Template Found!
+2025-05-07 21:28:38,564 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 21:28:59,066 [INFO] ✅ API Key Found!
+2025-05-07 21:28:59,067 [INFO] ✅ Prompt Template Found!
+2025-05-07 21:28:59,221 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 21:29:04,282 [INFO] ✅ API Key Found!
+2025-05-07 21:29:04,285 [INFO] ✅ Prompt Template Found!
+2025-05-07 21:29:04,491 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 21:29:08,299 [INFO] ✅ API Key Found!
+2025-05-07 21:29:08,300 [INFO] ✅ Prompt Template Found!
+2025-05-07 21:29:08,490 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 21:35:23,334 [INFO] ✅ API Key Found!
+2025-05-07 21:35:23,336 [INFO] ✅ Prompt Template Found!
+2025-05-07 21:35:23,629 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 21:35:51,604 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-07 21:35:51,608 [INFO] ✅ Translation Done!
+2025-05-07 21:35:51,608 [INFO] ====================================================================================
+2025-05-07 21:36:09,384 [INFO] ✅ API Key Found!
+2025-05-07 21:36:09,387 [INFO] ✅ Prompt Template Found!
+2025-05-07 21:36:09,527 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 21:36:28,163 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-07 21:36:28,164 [INFO] ✅ Translation Done!
+2025-05-07 21:36:28,165 [INFO] ====================================================================================
+2025-05-07 21:36:50,798 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-07 21:36:50,799 [INFO] ✅ Translation Done!
+2025-05-07 21:36:50,800 [INFO] ====================================================================================
+2025-05-07 21:39:34,650 [INFO] ✅ API Key Found!
+2025-05-07 21:39:34,650 [INFO] ✅ Prompt Template Found!
+2025-05-07 21:39:34,814 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 21:39:53,173 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-07 21:39:53,180 [INFO] ✅ Translation Done!
+2025-05-07 21:39:53,180 [INFO] ====================================================================================
+2025-05-07 21:41:36,506 [INFO] ✅ API Key Found!
+2025-05-07 21:41:36,507 [INFO] ✅ Prompt Template Found!
+2025-05-07 21:41:36,686 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 21:41:46,226 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-07 21:41:46,229 [INFO] ✅ Translation Done!
+2025-05-07 21:41:46,230 [INFO] ====================================================================================
+2025-05-07 21:41:55,291 [INFO] ✅ API Key Found!
+2025-05-07 21:41:55,292 [INFO] ✅ Prompt Template Found!
+2025-05-07 21:41:55,432 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 21:42:05,088 [INFO] ✅ API Key Found!
+2025-05-07 21:42:05,089 [INFO] ✅ Prompt Template Found!
+2025-05-07 21:42:05,212 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 21:42:06,919 [INFO] ✅ API Key Found!
+2025-05-07 21:42:06,929 [INFO] ✅ Prompt Template Found!
+2025-05-07 21:42:07,174 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 21:42:11,817 [INFO] ✅ API Key Found!
+2025-05-07 21:42:11,817 [INFO] ✅ Prompt Template Found!
+2025-05-07 21:42:11,927 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 21:42:40,842 [INFO] ✅ API Key Found!
+2025-05-07 21:42:40,842 [INFO] ✅ Prompt Template Found!
+2025-05-07 21:42:40,980 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 21:42:42,825 [INFO] ✅ API Key Found!
+2025-05-07 21:42:42,825 [INFO] ✅ Prompt Template Found!
+2025-05-07 21:42:42,941 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 21:43:05,038 [INFO] ✅ API Key Found!
+2025-05-07 21:43:05,038 [INFO] ✅ Prompt Template Found!
+2025-05-07 21:43:05,159 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 21:43:18,442 [INFO] ✅ API Key Found!
+2025-05-07 21:43:18,443 [INFO] ✅ Prompt Template Found!
+2025-05-07 21:43:18,538 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 21:43:59,862 [INFO] ✅ API Key Found!
+2025-05-07 21:43:59,863 [INFO] ✅ Prompt Template Found!
+2025-05-07 21:44:00,139 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 21:44:03,975 [INFO] ✅ API Key Found!
+2025-05-07 21:44:03,979 [INFO] ✅ Prompt Template Found!
+2025-05-07 21:44:04,242 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 21:44:20,717 [INFO] ✅ API Key Found!
+2025-05-07 21:44:20,717 [INFO] ✅ Prompt Template Found!
+2025-05-07 21:44:20,835 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 21:44:29,772 [INFO] ✅ API Key Found!
+2025-05-07 21:44:29,774 [INFO] ✅ Prompt Template Found!
+2025-05-07 21:44:29,908 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 21:44:39,724 [INFO] ✅ API Key Found!
+2025-05-07 21:44:39,724 [INFO] ✅ Prompt Template Found!
+2025-05-07 21:44:39,858 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 21:45:02,838 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-07 21:45:02,841 [INFO] ✅ Translation Done!
+2025-05-07 21:45:02,841 [INFO] ====================================================================================
+2025-05-07 21:45:58,140 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-07 21:45:58,143 [INFO] ✅ Translation Done!
+2025-05-07 21:45:58,143 [INFO] ====================================================================================
+2025-05-07 21:46:40,397 [INFO] ✅ API Key Found!
+2025-05-07 21:46:40,398 [INFO] ✅ Prompt Template Found!
+2025-05-07 21:46:40,568 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 21:46:47,085 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-07 21:46:47,087 [INFO] ✅ Translation Done!
+2025-05-07 21:46:47,088 [INFO] ====================================================================================
+2025-05-07 21:47:05,517 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-07 21:47:05,524 [INFO] ✅ Translation Done!
+2025-05-07 21:47:05,524 [INFO] ====================================================================================
+2025-05-07 21:48:28,729 [INFO] ✅ API Key Found!
+2025-05-07 21:48:28,729 [INFO] ✅ Prompt Template Found!
+2025-05-07 21:48:28,917 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 21:48:45,370 [INFO] ✅ API Key Found!
+2025-05-07 21:48:45,370 [INFO] ✅ Prompt Template Found!
+2025-05-07 21:48:45,525 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 21:48:53,673 [INFO] ✅ API Key Found!
+2025-05-07 21:48:53,673 [INFO] ✅ Prompt Template Found!
+2025-05-07 21:48:53,808 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 21:49:03,899 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-07 21:49:03,902 [INFO] ✅ Translation Done!
+2025-05-07 21:49:03,902 [INFO] ====================================================================================
+2025-05-07 21:49:18,223 [INFO] ✅ API Key Found!
+2025-05-07 21:49:18,223 [INFO] ✅ Prompt Template Found!
+2025-05-07 21:49:18,371 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 21:49:42,327 [INFO] ✅ API Key Found!
+2025-05-07 21:49:42,328 [INFO] ✅ Prompt Template Found!
+2025-05-07 21:49:42,471 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 21:49:43,648 [INFO] ✅ API Key Found!
+2025-05-07 21:49:43,649 [INFO] ✅ Prompt Template Found!
+2025-05-07 21:49:43,810 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 21:49:43,923 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 21:49:45,655 [INFO] ✅ API Key Found!
+2025-05-07 21:49:45,658 [INFO] ✅ Prompt Template Found!
+2025-05-07 21:49:45,782 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 21:49:47,890 [INFO] ✅ API Key Found!
+2025-05-07 21:49:47,890 [INFO] ✅ Prompt Template Found!
+2025-05-07 21:49:48,013 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 21:49:58,640 [INFO] ✅ API Key Found!
+2025-05-07 21:49:58,640 [INFO] ✅ Prompt Template Found!
+2025-05-07 21:49:58,848 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 21:50:00,259 [INFO] ✅ API Key Found!
+2025-05-07 21:50:00,259 [INFO] ✅ Prompt Template Found!
+2025-05-07 21:50:00,411 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 21:50:13,284 [INFO] ✅ API Key Found!
+2025-05-07 21:50:13,286 [INFO] ✅ Prompt Template Found!
+2025-05-07 21:50:13,401 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 21:50:25,665 [INFO] ✅ API Key Found!
+2025-05-07 21:50:25,666 [INFO] ✅ Prompt Template Found!
+2025-05-07 21:50:25,837 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 21:50:27,094 [INFO] ✅ API Key Found!
+2025-05-07 21:50:27,102 [INFO] ✅ Prompt Template Found!
+2025-05-07 21:50:27,248 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 21:50:29,129 [INFO] ✅ API Key Found!
+2025-05-07 21:50:29,130 [INFO] ✅ Prompt Template Found!
+2025-05-07 21:50:29,280 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 21:50:50,355 [INFO] ✅ API Key Found!
+2025-05-07 21:50:50,355 [INFO] ✅ Prompt Template Found!
+2025-05-07 21:50:50,487 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 21:50:57,458 [INFO] ✅ API Key Found!
+2025-05-07 21:50:57,459 [INFO] ✅ Prompt Template Found!
+2025-05-07 21:50:57,682 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 21:51:02,651 [INFO] ✅ API Key Found!
+2025-05-07 21:51:02,653 [INFO] ✅ Prompt Template Found!
+2025-05-07 21:51:02,782 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 21:51:08,641 [INFO] ✅ API Key Found!
+2025-05-07 21:51:08,645 [INFO] ✅ Prompt Template Found!
+2025-05-07 21:51:08,815 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 21:51:19,303 [INFO] ✅ API Key Found!
+2025-05-07 21:51:19,303 [INFO] ✅ Prompt Template Found!
+2025-05-07 21:51:19,430 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 21:51:39,865 [INFO] ✅ API Key Found!
+2025-05-07 21:51:39,869 [INFO] ✅ Prompt Template Found!
+2025-05-07 21:51:40,069 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 21:51:45,880 [INFO] ✅ API Key Found!
+2025-05-07 21:51:45,880 [INFO] ✅ Prompt Template Found!
+2025-05-07 21:51:46,017 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 21:53:26,086 [INFO] ✅ API Key Found!
+2025-05-07 21:53:26,087 [INFO] ✅ Prompt Template Found!
+2025-05-07 21:53:26,219 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 21:53:36,426 [INFO] ✅ API Key Found!
+2025-05-07 21:53:36,428 [INFO] ✅ Prompt Template Found!
+2025-05-07 21:53:36,570 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 21:53:46,090 [INFO] ✅ API Key Found!
+2025-05-07 21:53:46,090 [INFO] ✅ Prompt Template Found!
+2025-05-07 21:53:46,274 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 21:53:59,841 [INFO] ✅ API Key Found!
+2025-05-07 21:53:59,841 [INFO] ✅ Prompt Template Found!
+2025-05-07 21:54:00,204 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 21:54:03,115 [INFO] ✅ API Key Found!
+2025-05-07 21:54:03,116 [INFO] ✅ Prompt Template Found!
+2025-05-07 21:54:03,256 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 21:54:21,228 [INFO] ✅ API Key Found!
+2025-05-07 21:54:21,229 [INFO] ✅ Prompt Template Found!
+2025-05-07 21:54:21,443 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 21:54:26,758 [INFO] ✅ API Key Found!
+2025-05-07 21:54:26,759 [INFO] ✅ Prompt Template Found!
+2025-05-07 21:54:26,940 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 21:54:33,246 [INFO] ✅ API Key Found!
+2025-05-07 21:54:33,247 [INFO] ✅ Prompt Template Found!
+2025-05-07 21:54:33,393 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 21:55:48,567 [INFO] ✅ API Key Found!
+2025-05-07 21:55:48,568 [INFO] ✅ Prompt Template Found!
+2025-05-07 21:55:48,691 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 21:56:51,444 [INFO] ✅ API Key Found!
+2025-05-07 21:56:51,444 [INFO] ✅ Prompt Template Found!
+2025-05-07 21:56:51,688 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 21:56:53,568 [INFO] ✅ API Key Found!
+2025-05-07 21:56:53,569 [INFO] ✅ Prompt Template Found!
+2025-05-07 21:56:53,695 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 21:57:06,805 [INFO] ✅ API Key Found!
+2025-05-07 21:57:06,805 [INFO] ✅ Prompt Template Found!
+2025-05-07 21:57:06,964 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 21:57:10,058 [INFO] ✅ API Key Found!
+2025-05-07 21:57:10,058 [INFO] ✅ Prompt Template Found!
+2025-05-07 21:57:10,164 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 21:57:11,690 [INFO] ✅ API Key Found!
+2025-05-07 21:57:11,692 [INFO] ✅ Prompt Template Found!
+2025-05-07 21:57:11,818 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 21:57:26,891 [INFO] ✅ API Key Found!
+2025-05-07 21:57:26,891 [INFO] ✅ Prompt Template Found!
+2025-05-07 21:57:27,023 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 21:57:34,454 [INFO] ✅ API Key Found!
+2025-05-07 21:57:34,455 [INFO] ✅ Prompt Template Found!
+2025-05-07 21:57:34,622 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 21:57:49,014 [INFO] ✅ API Key Found!
+2025-05-07 21:57:49,015 [INFO] ✅ Prompt Template Found!
+2025-05-07 21:57:49,153 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 21:57:50,368 [INFO] ✅ API Key Found!
+2025-05-07 21:57:50,368 [INFO] ✅ Prompt Template Found!
+2025-05-07 21:57:50,537 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 22:01:18,672 [INFO] ✅ API Key Found!
+2025-05-07 22:01:18,672 [INFO] ✅ Prompt Template Found!
+2025-05-07 22:01:18,857 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 22:01:27,284 [INFO] ✅ API Key Found!
+2025-05-07 22:01:27,285 [INFO] ✅ Prompt Template Found!
+2025-05-07 22:01:27,568 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 22:03:05,609 [INFO] ✅ API Key Found!
+2025-05-07 22:03:05,612 [INFO] ✅ Prompt Template Found!
+2025-05-07 22:03:05,712 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 22:03:46,372 [INFO] ✅ API Key Found!
+2025-05-07 22:03:46,378 [INFO] ✅ Prompt Template Found!
+2025-05-07 22:03:46,520 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 22:04:19,094 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-07 22:04:19,096 [INFO] ✅ Translation Done!
+2025-05-07 22:04:19,096 [INFO] ====================================================================================
+2025-05-07 22:04:33,548 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-07 22:04:33,549 [INFO] ✅ Translation Done!
+2025-05-07 22:04:33,550 [INFO] ====================================================================================
+2025-05-07 22:04:49,173 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-07 22:04:49,175 [INFO] ✅ Translation Done!
+2025-05-07 22:04:49,175 [INFO] ====================================================================================
+2025-05-07 22:04:58,292 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-07 22:04:58,293 [INFO] ✅ Translation Done!
+2025-05-07 22:04:58,293 [INFO] ====================================================================================
+2025-05-07 22:05:06,688 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-07 22:05:06,689 [INFO] ✅ Translation Done!
+2025-05-07 22:05:06,690 [INFO] ====================================================================================
+2025-05-07 22:07:40,650 [INFO] ✅ API Key Found!
+2025-05-07 22:07:40,652 [INFO] ✅ Prompt Template Found!
+2025-05-07 22:07:40,949 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 22:07:58,090 [INFO] ✅ API Key Found!
+2025-05-07 22:07:58,091 [INFO] ✅ Prompt Template Found!
+2025-05-07 22:07:58,237 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 22:08:03,489 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-07 22:08:03,491 [INFO] ✅ Translation Done!
+2025-05-07 22:08:03,491 [INFO] ====================================================================================
+2025-05-07 22:08:19,714 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-07 22:08:19,715 [INFO] ✅ Translation Done!
+2025-05-07 22:08:19,716 [INFO] ====================================================================================
+2025-05-07 22:08:31,387 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-07 22:08:31,389 [INFO] ✅ Translation Done!
+2025-05-07 22:08:31,389 [INFO] ====================================================================================
+2025-05-07 22:08:41,525 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-07 22:08:41,527 [INFO] ✅ Translation Done!
+2025-05-07 22:08:41,527 [INFO] ====================================================================================
+2025-05-07 22:10:56,825 [INFO] ✅ API Key Found!
+2025-05-07 22:10:56,825 [INFO] ✅ Prompt Template Found!
+2025-05-07 22:10:56,942 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 22:11:51,523 [INFO] ✅ API Key Found!
+2025-05-07 22:11:51,527 [INFO] ✅ Prompt Template Found!
+2025-05-07 22:11:51,733 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 22:11:53,225 [INFO] ✅ API Key Found!
+2025-05-07 22:11:53,225 [INFO] ✅ Prompt Template Found!
+2025-05-07 22:11:53,378 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 22:13:12,327 [INFO] ✅ API Key Found!
+2025-05-07 22:13:12,332 [INFO] ✅ Prompt Template Found!
+2025-05-07 22:13:12,520 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 22:14:13,059 [INFO] ✅ API Key Found!
+2025-05-07 22:14:13,061 [INFO] ✅ Prompt Template Found!
+2025-05-07 22:14:13,238 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 22:14:19,989 [INFO] ✅ API Key Found!
+2025-05-07 22:14:19,989 [INFO] ✅ Prompt Template Found!
+2025-05-07 22:14:20,136 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 22:14:24,487 [INFO] ✅ API Key Found!
+2025-05-07 22:14:24,487 [INFO] ✅ Prompt Template Found!
+2025-05-07 22:14:24,609 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 22:14:46,085 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-07 22:14:46,086 [INFO] ✅ Translation Done!
+2025-05-07 22:14:46,086 [INFO] ====================================================================================
+2025-05-07 22:15:07,464 [INFO] ✅ API Key Found!
+2025-05-07 22:15:07,464 [INFO] ✅ Prompt Template Found!
+2025-05-07 22:15:07,600 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 22:15:14,509 [INFO] ✅ API Key Found!
+2025-05-07 22:15:14,510 [INFO] ✅ Prompt Template Found!
+2025-05-07 22:15:14,628 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 22:15:48,750 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-07 22:15:48,751 [INFO] ✅ Translation Done!
+2025-05-07 22:15:48,751 [INFO] ====================================================================================
+2025-05-07 22:16:04,465 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-07 22:16:04,467 [INFO] ✅ Translation Done!
+2025-05-07 22:16:04,467 [INFO] ====================================================================================
+2025-05-07 22:18:58,982 [INFO] ✅ API Key Found!
+2025-05-07 22:18:58,982 [INFO] ✅ Prompt Template Found!
+2025-05-07 22:18:59,151 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 22:19:24,924 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-07 22:19:24,926 [INFO] ✅ Translation Done!
+2025-05-07 22:19:24,926 [INFO] ====================================================================================
+2025-05-07 22:19:38,195 [INFO] ✅ API Key Found!
+2025-05-07 22:19:38,196 [INFO] ✅ Prompt Template Found!
+2025-05-07 22:19:38,400 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 22:20:30,259 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-07 22:20:30,263 [INFO] ✅ Translation Done!
+2025-05-07 22:20:30,263 [INFO] ====================================================================================
+2025-05-07 22:20:39,886 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-07 22:20:39,902 [INFO] ✅ Translation Done!
+2025-05-07 22:20:39,902 [INFO] ====================================================================================
+2025-05-07 22:20:58,523 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-07 22:20:58,531 [INFO] ✅ Translation Done!
+2025-05-07 22:20:58,532 [INFO] ====================================================================================
+2025-05-07 22:21:35,691 [INFO] ✅ API Key Found!
+2025-05-07 22:21:35,692 [INFO] ✅ Prompt Template Found!
+2025-05-07 22:21:35,868 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 22:22:08,101 [INFO] ✅ API Key Found!
+2025-05-07 22:22:08,102 [INFO] ✅ Prompt Template Found!
+2025-05-07 22:22:08,260 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 22:22:10,908 [INFO] ✅ API Key Found!
+2025-05-07 22:22:10,909 [INFO] ✅ Prompt Template Found!
+2025-05-07 22:22:11,035 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 22:22:18,598 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-07 22:22:18,602 [INFO] ✅ Translation Done!
+2025-05-07 22:22:18,603 [INFO] ====================================================================================
+2025-05-07 22:22:34,808 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-07 22:22:34,810 [INFO] ✅ Translation Done!
+2025-05-07 22:22:34,810 [INFO] ====================================================================================
+2025-05-07 22:22:41,902 [INFO] ✅ API Key Found!
+2025-05-07 22:22:41,902 [INFO] ✅ Prompt Template Found!
+2025-05-07 22:22:42,061 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 22:23:00,230 [INFO] ✅ API Key Found!
+2025-05-07 22:23:00,230 [INFO] ✅ Prompt Template Found!
+2025-05-07 22:23:00,479 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 22:23:20,861 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-07 22:23:20,872 [INFO] ✅ Translation Done!
+2025-05-07 22:23:20,873 [INFO] ====================================================================================
+2025-05-07 22:23:52,272 [INFO] ✅ API Key Found!
+2025-05-07 22:23:52,272 [INFO] ✅ Prompt Template Found!
+2025-05-07 22:23:52,429 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 22:24:02,214 [INFO] ✅ API Key Found!
+2025-05-07 22:24:02,215 [INFO] ✅ Prompt Template Found!
+2025-05-07 22:24:02,347 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 22:24:23,756 [INFO] ✅ API Key Found!
+2025-05-07 22:24:23,756 [INFO] ✅ Prompt Template Found!
+2025-05-07 22:24:23,972 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 22:24:51,103 [INFO] ✅ API Key Found!
+2025-05-07 22:24:51,103 [INFO] ✅ Prompt Template Found!
+2025-05-07 22:24:51,288 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 22:25:03,847 [INFO] ✅ API Key Found!
+2025-05-07 22:25:03,848 [INFO] ✅ Prompt Template Found!
+2025-05-07 22:25:04,025 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 22:25:28,761 [INFO] ✅ API Key Found!
+2025-05-07 22:25:28,762 [INFO] ✅ Prompt Template Found!
+2025-05-07 22:25:28,897 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 22:26:27,918 [INFO] ✅ API Key Found!
+2025-05-07 22:26:27,921 [INFO] ✅ Prompt Template Found!
+2025-05-07 22:26:28,087 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 22:26:29,795 [INFO] ✅ API Key Found!
+2025-05-07 22:26:29,795 [INFO] ✅ Prompt Template Found!
+2025-05-07 22:26:30,145 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 22:27:00,390 [INFO] ✅ API Key Found!
+2025-05-07 22:27:00,390 [INFO] ✅ Prompt Template Found!
+2025-05-07 22:27:00,785 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 22:27:23,275 [INFO] ✅ API Key Found!
+2025-05-07 22:27:23,281 [INFO] ✅ Prompt Template Found!
+2025-05-07 22:27:23,445 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 22:27:24,343 [INFO] ✅ API Key Found!
+2025-05-07 22:27:24,344 [INFO] ✅ Prompt Template Found!
+2025-05-07 22:27:24,608 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 22:27:27,184 [INFO] ✅ API Key Found!
+2025-05-07 22:27:27,184 [INFO] ✅ Prompt Template Found!
+2025-05-07 22:27:27,359 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 22:27:38,398 [INFO] ✅ API Key Found!
+2025-05-07 22:27:38,408 [INFO] ✅ Prompt Template Found!
+2025-05-07 22:27:43,578 [INFO] ✅ API Key Found!
+2025-05-07 22:27:43,578 [INFO] ✅ Prompt Template Found!
+2025-05-07 22:27:43,693 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 22:27:50,492 [INFO] ✅ API Key Found!
+2025-05-07 22:27:50,492 [INFO] ✅ Prompt Template Found!
+2025-05-07 22:27:50,623 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 22:27:59,886 [INFO] ✅ API Key Found!
+2025-05-07 22:27:59,900 [INFO] ✅ Prompt Template Found!
+2025-05-07 22:28:00,292 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 22:28:04,679 [INFO] ✅ API Key Found!
+2025-05-07 22:28:04,679 [INFO] ✅ Prompt Template Found!
+2025-05-07 22:28:04,807 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 22:28:11,843 [INFO] ✅ API Key Found!
+2025-05-07 22:28:11,843 [INFO] ✅ Prompt Template Found!
+2025-05-07 22:28:12,001 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 22:28:32,096 [INFO] ✅ API Key Found!
+2025-05-07 22:28:32,097 [INFO] ✅ Prompt Template Found!
+2025-05-07 22:28:35,951 [INFO] ✅ API Key Found!
+2025-05-07 22:28:35,952 [INFO] ✅ Prompt Template Found!
+2025-05-07 22:28:35,952 [ERROR] ❌ partially initialized module 'utils.utils' has no attribute 'configure_llm' (most likely due to a circular import) not found
+2025-05-07 22:28:36,051 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 22:28:37,963 [INFO] ✅ API Key Found!
+2025-05-07 22:28:37,963 [INFO] ✅ Prompt Template Found!
+2025-05-07 22:28:37,967 [ERROR] ❌ partially initialized module 'utils.utils' has no attribute 'configure_llm' (most likely due to a circular import)t found
+2025-05-07 22:28:38,151 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 22:28:39,099 [INFO] ✅ API Key Found!
+2025-05-07 22:28:39,100 [INFO] ✅ Prompt Template Found!
+2025-05-07 22:28:39,100 [ERROR] ❌ partially initialized module 'utils.utils' has no attribute 'configure_llm' (most likely due to a circular import)
+2025-05-07 22:28:39,211 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 22:28:51,957 [INFO] ✅ API Key Found!
+2025-05-07 22:28:51,957 [INFO] ✅ Prompt Template Found!
+2025-05-07 22:28:51,957 [ERROR] ❌ partially initialized module 'utils.utils' has no attribute 'configure_llm' (most likely due to a circular import)
+2025-05-07 22:28:54,069 [INFO] ✅ API Key Found!
+2025-05-07 22:28:54,069 [INFO] ✅ Prompt Template Found!
+2025-05-07 22:28:54,070 [ERROR] ❌ partially initialized module 'utils.utils' has no attribute 'configure_llm' (most likely due to a circular import)
+2025-05-07 22:28:57,939 [INFO] ✅ API Key Found!
+2025-05-07 22:28:57,941 [INFO] ✅ Prompt Template Found!
+2025-05-07 22:28:57,942 [ERROR] ❌ partially initialized module 'utils.utils' has no attribute 'configure_llm' (most likely due to a circular import)
+2025-05-07 22:29:02,918 [INFO] ✅ API Key Found!
+2025-05-07 22:29:02,923 [INFO] ✅ Prompt Template Found!
+2025-05-07 22:29:02,923 [ERROR] ❌ partially initialized module 'utils.utils' has no attribute 'configure_llm' (most likely due to a circular import)
+2025-05-07 22:29:04,333 [INFO] ✅ API Key Found!
+2025-05-07 22:29:04,333 [INFO] ✅ Prompt Template Found!
+2025-05-07 22:29:04,334 [ERROR] ❌ partially initialized module 'utils.utils' has no attribute 'configure_llm' (most likely due to a circular import)
+2025-05-07 22:29:17,564 [INFO] ✅ API Key Found!
+2025-05-07 22:29:17,564 [INFO] ✅ Prompt Template Found!
+2025-05-07 22:29:17,564 [ERROR] ❌ partially initialized module 'utils.utils' has no attribute 'configure_llm' (most likely due to a circular import)
+2025-05-07 22:29:24,899 [INFO] ✅ API Key Found!
+2025-05-07 22:29:24,899 [INFO] ✅ Prompt Template Found!
+2025-05-07 22:29:24,899 [ERROR] ❌ partially initialized module 'utils.utils' has no attribute 'configure_llm' (most likely due to a circular import)
+2025-05-07 22:30:01,494 [INFO] ✅ API Key Found!
+2025-05-07 22:30:01,495 [INFO] ✅ Prompt Template Found!
+2025-05-07 22:30:01,613 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 22:30:02,564 [INFO] ✅ API Key Found!
+2025-05-07 22:30:02,564 [INFO] ✅ Prompt Template Found!
+2025-05-07 22:30:02,665 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 22:30:11,149 [INFO] ✅ API Key Found!
+2025-05-07 22:30:11,149 [INFO] ✅ Prompt Template Found!
+2025-05-07 22:30:11,278 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 22:30:25,214 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-07 22:30:25,217 [INFO] ✅ Translation Done!
+2025-05-07 22:30:25,218 [INFO] ====================================================================================
+2025-05-07 22:32:24,624 [INFO] ✅ API Key Found!
+2025-05-07 22:32:24,627 [INFO] ✅ Prompt Template Found!
+2025-05-07 22:32:24,871 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 22:32:30,801 [INFO] ✅ API Key Found!
+2025-05-07 22:32:30,802 [INFO] ✅ Prompt Template Found!
+2025-05-07 22:32:31,027 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 22:33:08,270 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-07 22:33:08,272 [INFO] ✅ Translation Done!
+2025-05-07 22:33:08,278 [INFO] ====================================================================================
+2025-05-07 22:34:44,609 [INFO] ✅ API Key Found!
+2025-05-07 22:34:44,609 [INFO] ✅ Prompt Template Found!
+2025-05-07 22:34:44,845 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 22:34:52,714 [INFO] ✅ API Key Found!
+2025-05-07 22:34:52,715 [INFO] ✅ Prompt Template Found!
+2025-05-07 22:34:52,996 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 22:35:07,948 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-07 22:35:07,951 [INFO] ✅ Translation Done!
+2025-05-07 22:35:07,951 [INFO] ====================================================================================
+2025-05-07 22:35:20,043 [INFO] ✅ API Key Found!
+2025-05-07 22:35:20,044 [INFO] ✅ Prompt Template Found!
+2025-05-07 22:35:20,182 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 22:35:35,442 [INFO] ✅ API Key Found!
+2025-05-07 22:35:35,442 [INFO] ✅ Prompt Template Found!
+2025-05-07 22:35:35,568 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 22:35:45,980 [INFO] ✅ API Key Found!
+2025-05-07 22:35:45,981 [INFO] ✅ Prompt Template Found!
+2025-05-07 22:35:46,154 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-07 22:35:52,086 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-07 22:35:52,089 [INFO] ✅ Translation Done!
+2025-05-07 22:35:52,089 [INFO] ====================================================================================
+2025-05-07 22:36:28,428 [INFO] ✅ API Key Found!
+2025-05-07 22:36:28,428 [INFO] ✅ Prompt Template Found!
+2025-05-07 22:36:28,686 [INFO] ✅ Qwen-qwq-32b Loaded!

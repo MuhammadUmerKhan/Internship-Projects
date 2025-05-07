@@ -1,0 +1,123 @@
+2025-05-05 14:33:46,484 - INFO - Initializing camera
+2025-05-05 14:33:46,668 - INFO - Initializing YOLO detector with model: /home/muhammad/Internship Projects/Deep Learning/Computer Vision/Real-Time Object Detection & Tracking/weights/yolov8n.pt
+2025-05-05 14:33:46,818 - INFO - Initializing DeepSort tracker
+2025-05-05 14:33:48,507 - INFO - MobileNetV2 Embedder for Deep Sort initialised
+2025-05-05 14:33:48,508 - INFO - - gpu enabled: False
+2025-05-05 14:33:48,508 - INFO - - half precision: False
+2025-05-05 14:33:48,508 - INFO - - max batch size: 16
+2025-05-05 14:33:48,508 - INFO - - expects BGR: True
+2025-05-05 14:33:48,587 - INFO - DeepSort Tracker initialised
+2025-05-05 14:33:48,587 - INFO - - max age: 30
+2025-05-05 14:33:48,587 - INFO - - appearance threshold: 0.2
+2025-05-05 14:33:48,587 - INFO - - nms threshold: OFF
+2025-05-05 14:33:48,587 - INFO - - max num of appearance features: None
+2025-05-05 14:33:48,587 - INFO - - overriding track class : No
+2025-05-05 14:33:48,587 - INFO - - today given : No
+2025-05-05 14:33:48,587 - INFO - - in-build embedder : Yes
+2025-05-05 14:33:48,587 - INFO - - polygon detections : No
+2025-05-05 14:33:48,587 - INFO - Initializing CSV logging with log file: /home/muhammad/Internship Projects/Deep Learning/Computer Vision/Real-Time Object Detection & Tracking/database/entries.csv
+2025-05-05 14:33:48,587 - INFO - Using existing CSV log file: /home/muhammad/Internship Projects/Deep Learning/Computer Vision/Real-Time Object Detection & Tracking/database/entries.csv
+2025-05-05 14:33:48,619 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-05 14:33:48,619 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-05 14:33:48,636 - INFO -  * Restarting with watchdog (inotify)
+2025-05-05 14:33:51,147 - INFO - Initializing camera
+2025-05-05 14:33:51,156 - ERROR - Failed to open camera
+2025-05-05 14:33:51,156 - ERROR - Camera initialization error: Camera initialization failed
+2025-05-05 14:36:33,733 - INFO - Initializing camera
+2025-05-05 14:36:33,918 - INFO - Successfully opened camera at index 0
+2025-05-05 14:36:33,919 - INFO - Initializing YOLO detector with model: /home/muhammad/Internship Projects/Deep Learning/Computer Vision/Real-Time Object Detection & Tracking/weights/yolov8n.pt
+2025-05-05 14:36:34,113 - INFO - Initializing DeepSort tracker
+2025-05-05 14:36:35,766 - INFO - MobileNetV2 Embedder for Deep Sort initialised
+2025-05-05 14:36:35,767 - INFO - - gpu enabled: False
+2025-05-05 14:36:35,767 - INFO - - half precision: False
+2025-05-05 14:36:35,767 - INFO - - max batch size: 16
+2025-05-05 14:36:35,767 - INFO - - expects BGR: True
+2025-05-05 14:36:35,858 - INFO - DeepSort Tracker initialised
+2025-05-05 14:36:35,858 - INFO - - max age: 30
+2025-05-05 14:36:35,858 - INFO - - appearance threshold: 0.2
+2025-05-05 14:36:35,858 - INFO - - nms threshold: OFF
+2025-05-05 14:36:35,858 - INFO - - max num of appearance features: None
+2025-05-05 14:36:35,858 - INFO - - overriding track class : No
+2025-05-05 14:36:35,858 - INFO - - today given : No
+2025-05-05 14:36:35,858 - INFO - - in-build embedder : Yes
+2025-05-05 14:36:35,858 - INFO - - polygon detections : No
+2025-05-05 14:36:35,858 - INFO - Initializing CSV logging with log file: /home/muhammad/Internship Projects/Deep Learning/Computer Vision/Real-Time Object Detection & Tracking/database/entries.csv
+2025-05-05 14:36:35,858 - INFO - Using existing CSV log file: /home/muhammad/Internship Projects/Deep Learning/Computer Vision/Real-Time Object Detection & Tracking/database/entries.csv
+2025-05-05 14:36:35,869 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-05 14:36:35,869 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-05 14:36:35,875 - INFO -  * Restarting with watchdog (inotify)
+2025-05-05 14:36:38,328 - INFO - Initializing camera
+2025-05-05 14:36:38,329 - WARNING - Camera at index 0 could not be opened
+2025-05-05 14:36:38,330 - WARNING - Camera at index 1 could not be opened
+2025-05-05 14:36:38,331 - WARNING - Camera at index 2 could not be opened
+2025-05-05 14:36:38,331 - ERROR - No camera could be opened
+2025-05-05 14:40:31,518 - INFO - Initializing camera
+2025-05-05 14:40:31,703 - INFO - Initializing YOLO detector with model: /home/muhammad/Internship Projects/Deep Learning/Computer Vision/Real-Time Object Detection & Tracking/weights/yolov8n.pt
+2025-05-05 14:40:31,887 - INFO - Initializing DeepSort tracker
+2025-05-05 14:40:33,675 - INFO - MobileNetV2 Embedder for Deep Sort initialised
+2025-05-05 14:40:33,675 - INFO - - gpu enabled: False
+2025-05-05 14:40:33,675 - INFO - - half precision: False
+2025-05-05 14:40:33,675 - INFO - - max batch size: 16
+2025-05-05 14:40:33,675 - INFO - - expects BGR: True
+2025-05-05 14:40:33,758 - INFO - DeepSort Tracker initialised
+2025-05-05 14:40:33,758 - INFO - - max age: 30
+2025-05-05 14:40:33,758 - INFO - - appearance threshold: 0.2
+2025-05-05 14:40:33,758 - INFO - - nms threshold: OFF
+2025-05-05 14:40:33,758 - INFO - - max num of appearance features: None
+2025-05-05 14:40:33,758 - INFO - - overriding track class : No
+2025-05-05 14:40:33,758 - INFO - - today given : No
+2025-05-05 14:40:33,759 - INFO - - in-build embedder : Yes
+2025-05-05 14:40:33,759 - INFO - - polygon detections : No
+2025-05-05 14:40:33,759 - INFO - Initializing CSV logging with log file: /home/muhammad/Internship Projects/Deep Learning/Computer Vision/Real-Time Object Detection & Tracking/database/entries.csv
+2025-05-05 14:40:33,759 - INFO - Using existing CSV log file: /home/muhammad/Internship Projects/Deep Learning/Computer Vision/Real-Time Object Detection & Tracking/database/entries.csv
+2025-05-05 14:40:33,770 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-05 14:40:33,771 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-05 14:40:33,777 - INFO -  * Restarting with watchdog (inotify)
+2025-05-05 14:40:38,236 - INFO - Initializing camera
+2025-05-05 14:40:38,237 - ERROR - Failed to open camera
+2025-05-05 14:40:38,237 - ERROR - Camera initialization error: Camera initialization failed
+2025-05-05 14:42:07,771 - INFO - Initializing camera
+2025-05-05 14:45:53,433 - INFO - Initializing camera
+2025-05-05 14:45:53,617 - INFO - Initializing YOLO detector with model: /home/muhammad/Internship Projects/Deep Learning/Computer Vision/Real-Time Object Detection & Tracking/weights/yolov8n.pt
+2025-05-05 14:45:53,800 - INFO - Initializing DeepSort tracker
+2025-05-05 14:45:55,351 - INFO - MobileNetV2 Embedder for Deep Sort initialised
+2025-05-05 14:45:55,351 - INFO - - gpu enabled: False
+2025-05-05 14:45:55,351 - INFO - - half precision: False
+2025-05-05 14:45:55,352 - INFO - - max batch size: 16
+2025-05-05 14:45:55,352 - INFO - - expects BGR: True
+2025-05-05 14:45:55,433 - INFO - DeepSort Tracker initialised
+2025-05-05 14:45:55,433 - INFO - - max age: 30
+2025-05-05 14:45:55,433 - INFO - - appearance threshold: 0.2
+2025-05-05 14:45:55,433 - INFO - - nms threshold: OFF
+2025-05-05 14:45:55,433 - INFO - - max num of appearance features: None
+2025-05-05 14:45:55,433 - INFO - - overriding track class : No
+2025-05-05 14:45:55,433 - INFO - - today given : No
+2025-05-05 14:45:55,433 - INFO - - in-build embedder : Yes
+2025-05-05 14:45:55,433 - INFO - - polygon detections : No
+2025-05-05 14:45:55,433 - INFO - Initializing CSV logging with log file: /home/muhammad/Internship Projects/Deep Learning/Computer Vision/Real-Time Object Detection & Tracking/database/entries.csv
+2025-05-05 14:45:55,433 - INFO - Using existing CSV log file: /home/muhammad/Internship Projects/Deep Learning/Computer Vision/Real-Time Object Detection & Tracking/database/entries.csv
+2025-05-05 14:45:55,445 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-05 14:45:55,445 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-05 14:45:55,451 - INFO -  * Restarting with watchdog (inotify)
+2025-05-05 14:45:59,716 - INFO - Initializing camera
+2025-05-05 14:45:59,717 - ERROR - Failed to open camera
+2025-05-05 14:45:59,718 - ERROR - Camera initialization error: Camera initialization failed
+2025-05-05 14:47:42,773 - INFO - Initializing camera
+2025-05-05 14:47:42,871 - ERROR - Failed to open camera
+2025-05-05 14:47:42,871 - ERROR - Camera initialization error: Camera initialization failed
+2025-05-05 14:47:48,297 - INFO - Initializing camera
+2025-05-05 14:47:48,394 - ERROR - Failed to open camera
+2025-05-05 14:47:48,394 - ERROR - Camera initialization error: Camera initialization failed
+2025-05-05 14:49:05,943 - INFO - Initializing camera
+2025-05-05 14:49:06,040 - ERROR - Failed to open camera
+2025-05-05 14:49:06,040 - ERROR - Camera initialization error: Camera initialization failed
+2025-05-05 14:49:17,328 - INFO - Initializing camera
+2025-05-05 14:49:17,426 - ERROR - Failed to open camera
+2025-05-05 14:49:17,426 - ERROR - Camera initialization error: Camera initialization failed
+2025-05-05 14:50:03,676 - INFO - Initializing camera
+2025-05-05 14:50:03,773 - ERROR - Failed to open camera
+2025-05-05 14:50:03,773 - ERROR - Camera initialization error: Camera initialization failed
