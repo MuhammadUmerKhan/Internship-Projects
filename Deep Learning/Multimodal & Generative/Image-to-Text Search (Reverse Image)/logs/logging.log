@@ -1,0 +1,161 @@
+2025-05-12 13:05:21,052 [INFO] ✅ Model Defined Found!
+2025-05-12 14:09:14,405 [INFO] ✅ Model Found!
+2025-05-12 14:09:15,092 [INFO] ✅ API Key Found!
+2025-05-12 14:09:15,093 [ERROR] ❌ partially initialized module 'utils.utils' has no attribute 'configure_llm' (most likely due to a circular import)
+2025-05-12 14:09:59,980 [ERROR] ❌ 'WebPImageFile' object has no attribute 'read'
+2025-05-12 14:10:31,708 [INFO] ✅ Model Found!
+2025-05-12 14:10:31,723 [INFO] ✅ API Key Found!
+2025-05-12 14:10:31,723 [ERROR] ❌ partially initialized module 'utils.utils' has no attribute 'configure_llm' (most likely due to a circular import)
+2025-05-12 14:10:31,742 [ERROR] ❌ 'WebPImageFile' object has no attribute 'read'
+2025-05-12 14:11:47,671 [INFO] ✅ Model Found!
+2025-05-12 14:11:47,684 [INFO] ✅ API Key Found!
+2025-05-12 14:11:47,685 [ERROR] ❌ partially initialized module 'utils.utils' has no attribute 'configure_llm' (most likely due to a circular import)
+2025-05-12 14:11:47,874 [INFO] ✅ Image Opened!
+2025-05-12 14:11:54,539 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-12 14:11:57,829 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-12 14:11:57,847 [INFO] 📝 Refined Caption: 
+
+**Enhanced Image Description:**  
+The scene depicts a serene alpine lake nestled within a rugged mountain valley, its glassy surface reflecting the towering snow-capped peaks that frame the horizon. The foreground features smooth, weathered rocks bordering the water’s edge, while evergreen trees cluster along the shoreline, their dark green foliage contrasting with the lake’s turquoise hues. The distant mountain range, characterized by jagged, glaciated ridges, rises sharply against a vast, cloud-dappled sky, creating a sense of vast, untamed wilderness. Sunlight filters through the atmosphere, casting long shadows across the valley and emphasizing the crisp clarity of the air. This composition captures a quintessential alpine landscape, blending still water, rocky terrain, and dramatic peaks to evoke the tranquility and grandeur of a remote mountain environment.  
+
+**Key Elements Addressed:**  
+- **Background/Context:** A remote, pristine alpine setting, likely in a wilderness area or national park.  
+- **Objects:** The central lake, surrounding evergreens, rocky outcrops, and distant mountain peaks.  
+- **Scene Type:** Natural landscape, emphasizing geological and ecological features of a high-altitude environment.  
+- **Tone:** Descriptive yet concise, avoiding overused terms like "scenic" or "beautiful" in favor of specific visual and environmental details.
+2025-05-12 14:14:06,970 [INFO] ✅ Model Found!
+2025-05-12 14:14:06,989 [INFO] ✅ API Key Found!
+2025-05-12 14:14:06,990 [ERROR] ❌ partially initialized module 'utils.utils' has no attribute 'configure_llm' (most likely due to a circular import)
+2025-05-12 14:14:07,215 [INFO] ✅ Image Opened!
+2025-05-12 14:14:12,282 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-12 14:14:38,022 [INFO] ✅ Model Found!
+2025-05-12 14:14:39,000 [INFO] ✅ API Key Found!
+2025-05-12 14:14:39,001 [ERROR] ❌ partially initialized module 'utils.utils' has no attribute 'configure_llm' (most likely due to a circular import)
+2025-05-12 14:16:30,566 [INFO] ✅ Model Found!
+2025-05-12 14:16:30,579 [INFO] ✅ API Key Found!
+2025-05-12 14:16:30,580 [ERROR] ❌ partially initialized module 'utils.utils' has no attribute 'configure_llm' (most likely due to a circular import)
+2025-05-12 14:17:00,085 [INFO] ✅ Model Found!
+2025-05-12 14:17:05,991 [INFO] ✅ Model Found!
+2025-05-12 14:17:05,996 [INFO] ✅ API Key Found!
+2025-05-12 14:17:05,997 [ERROR] ❌ partially initialized module 'utils.utils' has no attribute 'configure_llm' (most likely due to a circular import)
+2025-05-12 14:17:23,319 [INFO] ✅ Model Found!
+2025-05-12 14:17:23,325 [INFO] ✅ API Key Found!
+2025-05-12 14:17:23,326 [ERROR] ❌ partially initialized module 'utils.utils' has no attribute 'configure_llm' (most likely due to a circular import)
+2025-05-12 14:18:17,991 [INFO] ✅ Model Found!
+2025-05-12 14:18:18,004 [INFO] ✅ API Key Found!
+2025-05-12 14:18:18,005 [ERROR] ❌ partially initialized module 'utils.utils' has no attribute 'configure_llm' (most likely due to a circular import)
+2025-05-12 14:18:33,436 [INFO] ✅ Model Found!
+2025-05-12 14:18:39,658 [INFO] ✅ Model Found!
+2025-05-12 14:18:39,678 [INFO] ✅ API Key Found!
+2025-05-12 14:18:39,678 [ERROR] ❌ partially initialized module 'utils.utils' has no attribute 'configure_llm' (most likely due to a circular import)
+2025-05-12 14:19:18,047 [INFO] ✅ Model Found!
+2025-05-12 14:19:18,052 [INFO] ✅ API Key Found!
+2025-05-12 14:19:18,052 [ERROR] ❌ partially initialized module 'utils.utils' has no attribute 'configure_llm' (most likely due to a circular import)
+2025-05-12 14:20:33,734 [INFO] ✅ Model Found!
+2025-05-12 14:20:40,589 [INFO] ✅ Model Found!
+2025-05-12 14:20:40,605 [INFO] ✅ API Key Found!
+2025-05-12 14:20:40,605 [ERROR] ❌ partially initialized module 'utils.utils' has no attribute 'configure_llm' (most likely due to a circular import)
+2025-05-12 14:21:18,460 [INFO] ✅ Model Found!
+2025-05-12 14:21:18,467 [INFO] ✅ API Key Found!
+2025-05-12 14:21:18,468 [ERROR] ❌ partially initialized module 'utils.utils' has no attribute 'configure_llm' (most likely due to a circular import)
+2025-05-12 14:22:10,378 [INFO] ✅ Image Opened!
+2025-05-12 14:22:18,153 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-12 14:22:21,053 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-12 14:22:21,070 [INFO] 📝 Refined Caption: 
+
+The image depicts a serene alpine lake nestled within a rugged mountain valley, its glassy surface reflecting the towering, snow-capped peaks that encircle the basin. The central body of water, likely glacial-fed, exhibits a striking turquoise hue, interrupted only by smooth ripples near the shore where a narrow stream flows into it. In the mid-ground, jagged rock outcrops and patches of hardy alpine vegetation—such as low-lying shrubs and moss—anchor the landscape, while wisps of云 (mist or low cloud) drift between the peaks, softening their edges. The scene is bathed in soft, diffused light characteristic of a calm morning or early evening, casting long shadows from the mountains and emphasizing the stillness of the environment. This composition suggests a remote, untouched wilderness area, possibly in a high-altitude national park or protected mountain range.
+2025-05-12 14:22:57,571 [INFO] ✅ Model Found!
+2025-05-12 14:22:57,580 [INFO] ✅ API Key Found!
+2025-05-12 14:22:57,580 [ERROR] ❌ partially initialized module 'utils.utils' has no attribute 'configure_llm' (most likely due to a circular import)
+2025-05-12 14:22:57,616 [INFO] ✅ Image Opened!
+2025-05-12 14:23:02,841 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-12 14:23:05,206 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-12 14:23:05,209 [INFO] 📝 Refined Caption: 
+
+The image depicts a serene alpine lake nestled within a valley, framed by jagged, snow-dusted peaks that rise sharply from the shoreline. The foreground features rocky outcrops and evergreen trees, their dark foliage contrasting with the lake’s glassy, cobalt-blue surface, which mirrors the distant mountain range. This backdrop consists of layered, receding ridges under a vast, cloud-scattered sky, their summits glistening with permanent snowpack. The scene evokes a tranquil, high-altitude environment, with sunlight casting long shadows across the water, emphasizing the stillness and vertical grandeur of the landscape. The composition suggests an untamed, wilderness setting, likely in a temperate or subarctic mountain region during the transitional season between summer and autumn.
+2025-05-12 14:23:59,609 [INFO] ✅ Model Found!
+2025-05-12 14:24:03,404 [INFO] ✅ Model Found!
+2025-05-12 14:24:03,409 [INFO] ✅ API Key Found!
+2025-05-12 14:24:03,410 [ERROR] ❌ partially initialized module 'utils.utils' has no attribute 'configure_llm' (most likely due to a circular import)
+2025-05-12 14:24:03,672 [INFO] ✅ Image Opened!
+2025-05-12 14:24:09,679 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-12 14:24:12,269 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-12 14:24:12,279 [INFO] 📝 Refined Caption: 
+
+The image depicts a serene alpine lake nestled within a rugged mountain valley, its glassy surface reflecting the towering, snow-capped peaks that encircle the basin. The central body of water, likely glacial-fed, exhibits a striking turquoise hue, interrupted only by smooth ripples near the shore where a narrow stream flows into it. In the mid-ground, jagged rock outcrops and patches of hardy alpine vegetation—such as low-lying shrubs and moss—anchor the landscape, while wisps of云 (mist or low cloud) drift between the peaks, softening their edges. The scene is bathed in soft, diffused light characteristic of a calm morning or early evening, casting long shadows from the mountains and emphasizing the stillness of the environment. This composition suggests a remote, untouched wilderness area, possibly in a high-altitude national park or protected mountain range.
+2025-05-12 14:24:22,301 [INFO] ✅ Model Found!
+2025-05-12 14:24:26,078 [INFO] ✅ Model Found!
+2025-05-12 14:24:26,083 [INFO] ✅ API Key Found!
+2025-05-12 14:24:26,084 [ERROR] ❌ partially initialized module 'utils.utils' has no attribute 'configure_llm' (most likely due to a circular import)
+2025-05-12 14:24:29,596 [INFO] ✅ Model Found!
+2025-05-12 14:24:29,601 [INFO] ✅ API Key Found!
+2025-05-12 14:24:29,602 [ERROR] ❌ partially initialized module 'utils.utils' has no attribute 'configure_llm' (most likely due to a circular import)
+2025-05-12 14:24:29,620 [INFO] ✅ Image Opened!
+2025-05-12 14:24:36,729 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-12 14:24:36,772 [INFO] ✅ Model Found!
+2025-05-12 14:24:36,776 [INFO] ✅ API Key Found!
+2025-05-12 14:24:36,777 [ERROR] ❌ partially initialized module 'utils.utils' has no attribute 'configure_llm' (most likely due to a circular import)
+2025-05-12 14:24:37,031 [INFO] ✅ Image Opened!
+2025-05-12 14:24:40,440 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-12 14:24:40,469 [INFO] 📝 Refined Caption: 
+
+The image depicts an alpine landscape centered on a serene glacial lake, its glassy surface reflecting the dramatic topography that surrounds it. The foreground features weathered granite boulders and clusters of stunted conifers clinging to the rocky terrain, while vibrant splashes of wildflowers break the monotony of the mineral-rich soil. Rising sharply behind the lake, a series of snow-capped peaks form a jagged silhouette against a vast, cloudless cerulean sky. The middle ground reveals intermediate slopes covered in patchy alpine vegetation, their muted greens contrasting with the stark white and gray tones of the higher elevations. The composition emphasizes the lake’s role as a mirror, capturing both the vertical grandeur of the mountain range and the delicate details of the foreground’s geology. Atmospheric clarity enhances the depth perception, highlighting the vast scale of the valley and the interplay of light across the rock faces. This is an untouched high-altitude environment, likely in a subarctic or temperate mountain range, where glacial meltwater and rugged geology define the landscape’s character.
+2025-05-12 14:24:46,727 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-12 14:24:50,355 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-12 14:24:50,358 [INFO] 📝 Refined Caption: 
+
+The image depicts an alpine landscape centered on a serene glacial lake, its glassy surface reflecting the dramatic topography that surrounds it. The foreground features weathered granite boulders and clusters of stunted conifers clinging to the rocky terrain, while vibrant splashes of wildflowers break the monotony of the mineral-rich soil. Rising sharply behind the lake, a series of snow-capped peaks form a jagged silhouette against a vast, cloudless cerulean sky. The middle ground reveals intermediate slopes covered in patchy alpine vegetation, their muted greens contrasting with the stark white and gray tones of the higher elevations. The composition emphasizes the lake’s role as a mirror, capturing both the vertical grandeur of the mountain range and the delicate details of the foreground’s geology. Atmospheric clarity enhances the depth perception, highlighting the vast scale of the valley and the interplay of light across the rock faces. This is an untouched high-altitude environment, likely in a subarctic or temperate mountain range, where glacial meltwater and rugged geology define the landscape’s character.
+2025-05-12 14:25:27,617 [INFO] ✅ Model Found!
+2025-05-12 14:25:31,392 [INFO] ✅ Model Found!
+2025-05-12 14:25:35,422 [INFO] ✅ Model Found!
+2025-05-12 14:25:35,434 [INFO] ✅ API Key Found!
+2025-05-12 14:25:35,434 [ERROR] ❌ partially initialized module 'utils.utils' has no attribute 'configure_llm' (most likely due to a circular import)
+2025-05-12 14:25:50,148 [INFO] ✅ Model Found!
+2025-05-12 14:25:55,335 [INFO] ✅ Model Found!
+2025-05-12 14:25:55,350 [INFO] ✅ API Key Found!
+2025-05-12 14:25:55,351 [ERROR] ❌ partially initialized module 'utils.utils' has no attribute 'configure_llm' (most likely due to a circular import)
+2025-05-12 14:25:55,389 [INFO] ✅ Image Opened!
+2025-05-12 14:26:03,133 [INFO] ✅ Model Found!
+2025-05-12 14:26:04,285 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-12 14:26:06,559 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-12 14:26:06,572 [INFO] 📝 Refined Caption: 
+
+The image depicts a serene alpine lake nestled within a valley, framed by jagged, snow-dusted peaks that rise sharply from the shoreline. The foreground features rocky outcrops and evergreen trees, their dark foliage contrasting with the lake’s glassy, cobalt-blue surface, which mirrors the distant mountain range. This backdrop consists of layered, receding ridges under a vast, cloud-scattered sky, their summits glistening with permanent snowpack. The scene evokes a tranquil, high-altitude environment, with sunlight casting long shadows across the water, emphasizing the stillness and vertical grandeur of the landscape. The composition suggests an untamed, wilderness setting, likely in a temperate or subarctic mountain region during the transitional season between summer and autumn.
+2025-05-12 14:26:06,786 [INFO] ✅ Model Found!
+2025-05-12 14:26:06,798 [INFO] ✅ API Key Found!
+2025-05-12 14:26:06,799 [ERROR] ❌ partially initialized module 'utils.utils' has no attribute 'configure_llm' (most likely due to a circular import)
+2025-05-12 14:26:06,821 [INFO] ✅ Image Opened!
+2025-05-12 14:26:11,289 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-12 14:26:14,954 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-12 14:26:14,974 [INFO] 📝 Refined Caption: 
+
+The image depicts an alpine landscape centered on a serene glacial lake, its glassy surface reflecting the dramatic topography that surrounds it. The foreground features weathered granite boulders and clusters of stunted conifers clinging to the rocky terrain, while vibrant splashes of wildflowers break the monotony of the mineral-rich soil. Rising sharply behind the lake, a series of snow-capped peaks form a jagged silhouette against a vast, cloudless cerulean sky. The middle ground reveals intermediate slopes covered in patchy alpine vegetation, their muted greens contrasting with the stark white and gray tones of the higher elevations. The composition emphasizes the lake’s role as a mirror, capturing both the vertical grandeur of the mountain range and the delicate details of the foreground’s geology. Atmospheric clarity enhances the depth perception, highlighting the vast scale of the valley and the interplay of light across the rock faces. This is an untouched high-altitude environment, likely in a subarctic or temperate mountain range, where glacial meltwater and rugged geology define the landscape’s character.
+2025-05-12 14:27:14,547 [INFO] ✅ Model Found!
+2025-05-12 14:27:14,556 [INFO] ✅ API Key Found!
+2025-05-12 14:27:14,556 [ERROR] ❌ partially initialized module 'utils.utils' has no attribute 'configure_llm' (most likely due to a circular import)
+2025-05-12 14:27:14,577 [INFO] ✅ Image Opened!
+2025-05-12 14:27:19,579 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-12 14:27:21,815 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-12 14:27:21,826 [INFO] 📝 Refined Caption: 
+
+The image depicts a serene alpine lake nestled within a rugged mountain valley, its glassy surface reflecting the towering, snow-capped peaks that encircle the basin. The central body of water, likely glacial-fed, exhibits a striking turquoise hue, interrupted only by smooth ripples near the shore where a narrow stream flows into it. In the mid-ground, jagged rock outcrops and patches of hardy alpine vegetation—such as low-lying shrubs and moss—anchor the landscape, while wisps of云 (mist or low cloud) drift between the peaks, softening their edges. The scene is bathed in soft, diffused light characteristic of a calm morning or early evening, casting long shadows from the mountains and emphasizing the stillness of the environment. This composition suggests a remote, untouched wilderness area, possibly in a high-altitude national park or protected mountain range.
+2025-05-12 14:27:24,994 [INFO] ✅ Model Found!
+2025-05-12 14:27:29,914 [INFO] ✅ Model Found!
+2025-05-12 14:27:29,920 [INFO] ✅ API Key Found!
+2025-05-12 14:27:29,921 [ERROR] ❌ partially initialized module 'utils.utils' has no attribute 'configure_llm' (most likely due to a circular import)
+2025-05-12 14:27:29,949 [INFO] ✅ Image Opened!
+2025-05-12 14:27:34,030 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-12 14:27:37,169 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-12 14:27:37,172 [INFO] 📝 Refined Caption: 
+
+**Enhanced Image Description:**  
+The scene depicts a serene alpine lake nestled within a rugged mountain valley, framed by a dramatic array of snow-capped peaks that dominate the horizon. The foreground features the lake’s glassy surface, reflecting the surrounding terrain with mirror-like clarity, capturing the inverted silhouettes of pine-dotted slopes and jagged rock formations. The central mountain range, characterized by steep, weathered ridges and glacial striations, slopes downward toward the water’s edge, where clusters of hardy evergreens cling to rocky outcrops. Above, a gradient sky transitions from soft blues to wisps of high-altitude cirrus clouds, emphasizing the vastness of the landscape. The composition suggests a remote, high-altitude environment, likely in a region such as the Rockies or the Alps, where glacial melt and sparse vegetation underscore the area’s untamed, geologically sculpted character.  
+
+**Key Elements:**  
+- **Foreground:** A still, reflective alpine lake with a pebbled shoreline.  
+- **Midground:** Rugged, tree-lined slopes descending from the mountains toward the water.  
+- **Background:** A towering, snow-dusted mountain range with pronounced vertical relief.  
+- **Context:** A wilderness area, possibly a national park, with minimal human intervention.  
+- **Scene Type:** High-altitude natural landscape, emphasizing glacial and erosional geological features.  
+
+This description prioritizes specificity in terrain, geological context, and environmental atmosphere while avoiding overused adjectives.
