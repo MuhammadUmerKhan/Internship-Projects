@@ -1,0 +1,32 @@
+Image-to-Text Search/
+│
+├── app/
+│   ├── __init__.py
+│   ├── chat_model.py
+│   ├── image_captioning.py
+│   ├── img_opener.py
+│   ├── main.py
+│   └── README.md
+│
+├── assets/
+│   └── image.jpg
+│
+├── config/
+│   ├── __init__.py
+│   └── config.py
+│
+├── logs/
+│   └── logging.log
+│
+├── utils/
+│   ├── __init__.py
+│   └── utils.py
+│
+├── .env
+├── env/
+│   ├── init.py
+│   └── main.py
+├── main.py
+├── requirements.txt
+├── structure_graphql
+└── README.md
