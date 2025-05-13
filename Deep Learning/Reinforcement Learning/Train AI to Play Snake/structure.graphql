@@ -1,0 +1,21 @@
+snake-ai/
+├── src/
+│   ├── __init__.py
+│   ├── game.py           # Snake game logic and Pygame UI
+│   ├── agent.py          # RL agent and training logic
+│   ├── model.py          # Neural network and QTrainer
+│   ├── utils.py          # Plotting and helper functions
+│   ├── config.py         # Configuration parameters
+├── assets/
+│   ├── arial.ttf         # Font file for Pygame
+│   ├── background.png    # (Optional) Background image for UI
+├── logs/
+│   ├── training.log      # Log file for training
+├── model/
+│   ├── model.pth         # Saved model weights
+├── tests/
+│   ├── test_game.py      # (Optional) Unit tests
+├── README.md             # Project documentation
+├── requirements.txt      # Dependencies
+├── setup.py              # (Optional) For pip install
+├── main.py               # Entry point to run the project
