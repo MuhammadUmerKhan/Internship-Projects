@@ -286,31 +286,3 @@ snake-ai/
 
 ## License
 MIT License
-
-## Contributing
-Contributions are welcome! Please open an issue or submit a pull request on the repository for bug fixes, features, or improvements.
-
-## Contact
-For questions or support, contact the project maintainer at [your-email@example.com] or open an issue on the repository.
-
-
-### Explanation of Key Points
-1. **Comprehensive Overview**:
-   - The README starts with a clear project description, highlighting the RL approach, UI features, and modularity.
-   - It emphasizes the project’s purpose (training an AI to play Snake) and its appeal (visualizations, professional structure).
-2. **Detailed File Breakdown**:
-   - Each file in `src` is described with its purpose, key components, and technical details (e.g., class methods, error handling).
-   - Interactions between files (e.g., `agent.py` calling `game.py` and `utils.py`) are explained to show the system’s flow.
-3. **Technical Highlights**:
-   - Covers RL concepts (Q-learning, experience replay, epsilon-greedy), modularity, UI features, logging, and performance optimizations.
-   - Explains critical parameters (e.g., `MAX_MEMORY`, `LEARNING_RATE`) and their roles.
-4. **Setup and Usage**:
-   - Provides step-by-step instructions for cloning, setting up a virtual environment, installing dependencies, and running the project.
-   - Includes usage details for training mode, stopping training, and restarting games.
-5. **Extensibility**:
-   - Suggests future enhancements (play mode, hyperparameter tuning, testing) to guide developers.
-6. **Troubleshooting**:
-   - Addresses common issues (e.g., Pygame or Matplotlib failures, missing files) with actionable solutions.
-7. **Professional Tone**:
-   - Uses clear, concise language suitable for both technical and non-technical audiences.
-   - Includes standard sections (License, Contributing, Contact) for completeness.
