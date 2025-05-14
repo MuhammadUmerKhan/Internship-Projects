@@ -1,0 +1,25 @@
+COVID-19-XRAY-CLASSIFICATION/
+│
+├── 📂 assets/                          # Directory for static assets (e.g., images, styles)
+│   └── (empty or contains assets like logos, figures, etc.)
+│
+├── 📂 data/                            # Directory for dataset storage
+│   └── (contains the COVID-19 Radiography Dataset, e.g., COVID_Dataset/)
+│       └── 📂 COVID_Dataset/           # Structured dataset with class subfolders
+│           ├── 📂 COVID/               # Images for COVID class
+│           ├── 📂 Normal/              # Images for Normal class
+│           ├── 📂 Viral Pneumonia/     # Images for Viral Pneumonia class
+│           └── 📂 Lung_Opacity/        # Images for Lung Opacity class
+│
+├── 📂 models/                          # Directory for trained model weights
+│   └── 📄 resnet50_covid_classifier.pth  # Trained ResNet-50 model weights
+│
+├── 📂 notebook/                        # Directory for Jupyter notebooks
+│   ├── 📓 01_data_exploration.ipynb    # Notebook for dataset exploration and visualization
+│   └── 📓 02_preprocessing_&_training.ipynb  # Notebook for preprocessing, training, and evaluation
+│
+├── 📜 README.md                        # Main project README with instructions
+│
+├── 📜 gitignore.md                     # Gitignore file (likely a typo, should be .gitignore)
+│
+└── 📜 requirements.txt                 # File listing project dependencies
