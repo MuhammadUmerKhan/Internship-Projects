@@ -15,3 +15,23 @@
 2025-05-11 12:50:54,981 - main - INFO - Successfully processed message: llama 4
 2025-05-11 12:51:04,344 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
 2025-05-11 12:51:04,348 - main - INFO - Successfully processed message: i means who are you?
+2025-05-14 22:40:18,349 - main - INFO - Static files mounted at /static from directory: /home/muhammad/Internship-Projects/Deep Learning/NLP/Chatbot (Conversational AI)/static
+2025-05-14 22:40:18,565 - main - INFO - ChatGroq model initialized successfully
+2025-05-14 22:41:49,955 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-14 22:41:49,961 - main - INFO - Successfully processed message: hi
+2025-05-14 22:44:52,821 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-14 22:44:52,823 - main - INFO - Successfully processed message: hi
+2025-05-14 22:49:04,007 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-14 22:49:04,009 - main - INFO - Successfully processed message: hi
+2025-05-14 22:49:12,774 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-14 22:49:12,775 - main - INFO - Successfully processed message: how are you?
+2025-05-14 22:52:50,427 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-14 22:52:50,428 - main - INFO - Successfully processed message: hi
+2025-05-14 22:52:56,776 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-14 22:52:56,777 - main - INFO - Successfully processed message: how are you?
+2025-05-14 22:53:04,047 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-14 22:53:04,048 - main - INFO - Successfully processed message: fuck you
+2025-05-14 22:53:29,220 - main - INFO - Static files mounted at /static from directory: /home/muhammad/Internship-Projects/Deep Learning/NLP/Chatbot (Conversational AI)/static
+2025-05-14 22:53:29,613 - main - INFO - ChatGroq model initialized successfully
+2025-05-14 22:53:39,171 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-14 22:53:39,178 - main - INFO - Successfully processed message: Write a poem
