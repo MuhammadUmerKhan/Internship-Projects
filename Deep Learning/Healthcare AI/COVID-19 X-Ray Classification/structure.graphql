@@ -17,7 +17,12 @@ COVID-19-XRAY-CLASSIFICATION/
 ├── 📂 notebook/                        # Directory for Jupyter notebooks
 │   ├── 📓 01_data_exploration.ipynb    # Notebook for dataset exploration and visualization
 │   └── 📓 02_preprocessing_&_training.ipynb  # Notebook for preprocessing, training, and evaluation
+
+├── 📂 template/
+│   └── 📄 index.html                    # HTML template file
 │
+├── 📄 main.py                          # FastAPI backend
+|
 ├── 📜 README.md                        # Main project README with instructions
 │
 ├── 📜 gitignore.md                     # Gitignore file (likely a typo, should be .gitignore)
