@@ -6,3 +6,9 @@ scikit-learn
 mlflow 
 numpy 
 pillow
+fastapi 
+uvicorn 
+torch 
+torchvision 
+pillow 
+jinja2
