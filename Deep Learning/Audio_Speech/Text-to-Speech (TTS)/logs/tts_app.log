@@ -10,3 +10,23 @@
 2025-05-12 10:34:18,988 - tts_engine - INFO - TTSEngine initialized with language=en, slow=True
 2025-05-12 10:34:18,988 - tts_engine - INFO - Converting text: ewew...
 2025-05-12 10:34:19,723 - tts_engine - INFO - MP3 generated successfully: /tmp/tmpjlb3p71h.mp3
+2025-05-16 20:12:17,528 - tts_engine - INFO - TTSEngine initialized with language=en, slow=False
+2025-05-16 20:12:17,535 - tts_engine - INFO - Converting text: how are you?...
+2025-05-16 20:12:18,271 - tts_engine - INFO - MP3 generated successfully: /tmp/tmpauef0lm2.mp3
+2025-05-16 20:12:49,079 - tts_engine - INFO - TTSEngine initialized with language=en, slow=False
+2025-05-16 20:12:49,079 - tts_engine - INFO - Converting text: my name is umer...
+2025-05-16 20:12:49,820 - tts_engine - INFO - MP3 generated successfully: /tmp/tmpf7bqz3to.mp3
+2025-05-16 20:13:22,500 - tts_engine - INFO - TTSEngine initialized with language=de, slow=False
+2025-05-16 20:13:22,501 - tts_engine - INFO - Converting text: how are you?...
+2025-05-16 20:13:23,660 - tts_engine - INFO - MP3 generated successfully: /tmp/tmpj8ed_jcy.mp3
+2025-05-16 20:15:21,741 - tts_engine - INFO - TTSEngine initialized with language=de, slow=False
+2025-05-16 20:15:21,742 - tts_engine - INFO - Converting text: wie heisst du. kannst du mir mir sprechen
+...
+2025-05-16 20:15:22,739 - tts_engine - INFO - MP3 generated successfully: /tmp/tmp4sj9w7zu.mp3
+2025-05-16 20:19:35,171 - tts_engine - INFO - TTSEngine initialized with language=de, slow=False
+2025-05-16 20:19:35,172 - tts_engine - INFO - Converting text: wie heisst du. kannst du mir mir sprechen
+...
+2025-05-16 20:19:36,204 - tts_engine - INFO - MP3 generated successfully: /tmp/tmpdosopc8i.mp3
+2025-05-16 20:21:46,078 - tts_engine - INFO - TTSEngine initialized with language=hi, slow=False
+2025-05-16 20:21:46,080 - tts_engine - INFO - Converting text: आप कैसे हैं...
+2025-05-16 20:21:46,657 - tts_engine - INFO - MP3 generated successfully: /tmp/tmpalw7l63x.mp3
