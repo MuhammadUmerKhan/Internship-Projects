@@ -35,3 +35,17 @@
 2025-05-14 22:53:29,613 - main - INFO - ChatGroq model initialized successfully
 2025-05-14 22:53:39,171 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
 2025-05-14 22:53:39,178 - main - INFO - Successfully processed message: Write a poem
+2025-05-16 20:02:28,673 - main - INFO - Static files mounted at /static from directory: /home/muhammad/Internship-Projects/Deep Learning/NLP/Chatbot (Conversational AI)/static
+2025-05-16 20:02:28,981 - main - INFO - ChatGroq model initialized successfully
+2025-05-16 20:03:05,624 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-16 20:03:05,658 - main - INFO - Successfully processed message: hi
+2025-05-16 20:04:02,287 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-16 20:04:02,295 - main - INFO - Successfully processed message: how are you?
+2025-05-16 20:04:50,526 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-16 20:04:50,531 - main - INFO - Successfully processed message: what do you think?
+2025-05-16 20:05:10,848 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-16 20:05:10,852 - main - INFO - Successfully processed message: what do you think about recent india and pakistan conflict?
+2025-05-16 20:05:44,551 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-16 20:05:44,554 - main - INFO - Successfully processed message: do you have any idea about 2025 conflict?
+2025-05-16 20:08:30,457 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-16 20:08:30,465 - main - INFO - Successfully processed message: are you updated till 2022?
