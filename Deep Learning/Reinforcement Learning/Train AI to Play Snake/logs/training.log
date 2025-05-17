@@ -592,3 +592,28 @@
 2025-05-13 22:11:08,238 - INFO - Game 8 Score 0 Record: 1
 2025-05-13 22:11:10,528 - INFO - Game 9 Score 0 Record: 1
 2025-05-13 22:11:12,905 - INFO - Training interrupted by user
+2025-05-17 11:05:44,563 - INFO - Snake AI application started
+2025-05-17 11:05:46,883 - INFO - Starting training
+2025-05-17 11:05:48,157 - INFO - Game 1 Score 0 Record: 0
+2025-05-17 11:05:50,285 - INFO - Game 2 Score 0 Record: 0
+2025-05-17 11:05:53,005 - INFO - Game 3 Score 0 Record: 0
+2025-05-17 11:05:53,933 - INFO - Game 4 Score 0 Record: 0
+2025-05-17 11:05:56,209 - INFO - Game 5 Score 0 Record: 0
+2025-05-17 11:05:58,362 - INFO - Game 6 Score 0 Record: 0
+2025-05-17 11:06:00,619 - INFO - Game 7 Score 0 Record: 0
+2025-05-17 11:06:03,554 - INFO - Game 8 Score 0 Record: 0
+2025-05-17 11:06:04,923 - INFO - Game 9 Score 0 Record: 0
+2025-05-17 11:06:09,645 - INFO - Game 10 Score 0 Record: 0
+2025-05-17 11:06:12,578 - INFO - Game 11 Score 0 Record: 0
+2025-05-17 11:06:14,820 - INFO - Model saved to ../model/model.pth
+2025-05-17 11:06:14,820 - INFO - Game 12 Score 1 Record: 1
+2025-05-17 11:06:17,386 - INFO - Game 13 Score 0 Record: 1
+2025-05-17 11:06:18,774 - INFO - Game 14 Score 0 Record: 1
+2025-05-17 11:06:19,582 - INFO - Model saved to ../model/model.pth
+2025-05-17 11:06:19,583 - INFO - Game 15 Score 2 Record: 2
+2025-05-17 11:06:20,762 - INFO - Game 16 Score 0 Record: 2
+2025-05-17 11:06:21,918 - INFO - Game 17 Score 1 Record: 2
+2025-05-17 11:06:24,172 - INFO - Game 18 Score 0 Record: 2
+2025-05-17 11:06:26,851 - INFO - Game 19 Score 0 Record: 2
+2025-05-17 11:06:29,740 - INFO - Game 20 Score 1 Record: 2
+2025-05-17 11:06:32,519 - INFO - Game 21 Score 0 Record: 2
