@@ -160,8 +160,8 @@ snake-ai/
    - Ensure `assets/`, `logs/`, `model/`, and `plot/` directories exist (created automatically by the code if missing).
 6. **Run the Application**:
    From the `snake-ai` directory:
-   ```bash
-   python src/main.py --train
+   ```bash  
+   python main.py --train
    ```
 
 ## Usage
