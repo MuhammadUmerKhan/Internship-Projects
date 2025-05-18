@@ -1,0 +1,11 @@
+real-time-pose-estimation/
+├── app/
+│   ├── __init__.py          # Marks directory as Python package
+│   ├── main.py              # Streamlit app entry point with UI and tabs
+│   ├── pose_estimator.py    # Pose estimation logic using MediaPipe
+│   └── utils.py             # Utility functions for drawing landmarks
+├── logs/
+│   └── app.log              # Log file for debugging and monitoring
+├── requirements.txt          # Python dependencies
+├── README.md                # Project documentation
+└── .gitignore               # Ignores unnecessary files
