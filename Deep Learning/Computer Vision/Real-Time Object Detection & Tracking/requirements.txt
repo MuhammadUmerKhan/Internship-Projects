@@ -1,4 +1,4 @@
-flask
-opencv-python
-ultralytics
-deep_sort_realtime
+streamlit 
+opencv-python 
+ultralytics 
+deep-sort-realtime
