@@ -22,12 +22,6 @@ notebook/
 - **Analyze Distributions**: Generates histograms for features (e.g., `Glucose`, `BMI`) and a class distribution plot for `Outcome` (~65% non-diabetic, ~35% diabetic).
 - **Identify Issues**: Detects zeros in `Glucose`, `BloodPressure`, `SkinThickness`, `Insulin`, and `BMI` (~35% zeros in `Insulin`, ~30% in `SkinThickness`), indicating implicit missing values.
 - **Visualize Correlations**: Creates a correlation heatmap to identify relationships (e.g., `Glucose` and `Outcome` correlation).
-- **Save Outputs**: Saves plots to `../plots/` (e.g., `class_distribution.png`, `correlation_heatmap.png`) and an outlier summary to `../results/outliers_summary.csv`.
-
-**Outputs**:
-- Plots in `../plots/` for distributions and correlations.
-- Outlier summary in `../results/`.
-- Insights for preprocessing (e.g., handle zeros, address class imbalance).
 
 **Dependencies**: `pandas`, `numpy`, `matplotlib`, `seaborn`, `os`.
 
@@ -40,17 +34,16 @@ notebook/
 - **Split Data**: Splits data into features (`X`: 8 features) and target (`y`: `Outcome`), then performs a stratified train-test split (80% train, 20% test).
 - **Balance Classes**: Applies SMOTEENN (SMOTE + Edited Nearest Neighbors) to the training set to address class imbalance, producing a balanced `X_resampled_enn` and `y_resampled_enn` (~400–600 rows, ~50:50 classes).
 - **Train Models**: Trains three models using resampled data:
-  - Random Forest (`RandomForestClassifier`, saved as `rf_model.pkl`).
+  - Random Forest (`RandomForestClassifier`, saved as `model.pkl`).
   - K-Nearest Neighbors (`KNeighborsClassifier`, k=5).
   - Support Vector Machine (`SVC`, RBF kernel).
 - **Evaluate Models**: Uses `evaluate_model` (from `helper.py`) to compute ROC curves (FPR, TPR, AUC) and accuracy, with scaling for KNN and SVM.
 - **Visualize Results**: Calls `plot_model_comparisons` (from `helper.py`) to generate ROC curve plots, saved to `../plots/` (e.g., `model_comparisons.png`).
-- **Save Outputs**: Saves the Random Forest model to `../models/rf_model.pkl`.
+- **Save Outputs**: Saves the Random Forest model to `../models/model.pkl`.
 
 **Outputs**:
 - Preprocessed training data (balanced with SMOTEENN).
 - Trained Random Forest model in `../models/`.
-- Comparison plots in `../plots/`.
 - Expected ROC-AUC: ~0.80–0.85 for Random Forest, ~0.75–0.80 for KNN/SVM.
 
 **Dependencies**: `pandas`, `numpy`, `os`, `sklearn`, `imblearn`, `helper.helper`.
@@ -63,7 +56,7 @@ notebook/
   - Scales data if `need_scaling=True` (for KNN, SVM) using `StandardScaler`.
   - Trains the model on `X` and `y`.
   - Computes ROC metrics (FPR, TPR, AUC) and accuracy, likely via cross-validation or test set.
-  - Saves the model (e.g., `rf_model.pkl`) if `save=True`.
+  - Saves the model (e.g., `model.pkl`) if `save=True`.
   - Returns `fpr`, `tpr`, `roc_auc`, `acc`.
 - **`plot_model_comparisons(results)`**:
   - Takes a dictionary of model results (`{name: (fpr, tpr, roc_auc, acc)}`).
@@ -112,26 +105,20 @@ The notebooks represent the initial stages of a diabetes prediction pipeline:
      ```
 3. **Prepare Data**:
    - Download `diabetes.csv` from [Kaggle](https://www.kaggle.com/datasets/mathchi/diabetes-data-set).
-   - Place it in `../data/raw/` (e.g., `/content/drive/MyDrive/diabetes_project/data/raw/` in Colab).
-4. **Mount Google Drive** (for Colab):
-   ```python
-   from google.colab import drive
-   drive.mount('/content/drive')
-   ```
-5. **Run Notebooks**:
+   - Place it in `data` (e.g., `diabetes_project/data/` in Colab).
+4. **Run Notebooks**:
    - Open `01_data_exploration.ipynb` in Colab or Jupyter.
    - Execute cells sequentially to generate plots and summaries.
    - Run `02_preprocessing_training.ipynb` to preprocess data, train models, and save outputs.
-6. **Verify Outputs**:
-   - Check `../plots/` for visualizations (e.g., `class_distribution.png`, `model_comparisons.png`).
-   - Confirm `../models/rf_model.pkl` and `../results/outliers_summary.csv` exist.
+5. **Verify Outputs**:
+   - Confirm `../models/model.pkl` exist.
 
 ## Assumptions
 - **Environment**: Notebooks are designed for Google Colab with Google Drive mounted.
-- **Data Path**: `diabetes.csv` is in `../data/raw/` relative to the notebook folder (e.g., `/content/drive/MyDrive/diabetes_project/data/raw/`).
+- **Data Path**: `diabetes.csv` is in `../data/raw/` relative to the notebook folder (e.g., `/content/drive/MyDrive/diabetes_project/data`).
 - **Helper Functions**: `helper.py` is correctly implemented and accessible via `from helper.helper import evaluate_model, plot_model_comparisons`.
 - **Dependencies**: All required libraries are installed (`pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`, `imblearn`).
-- **Model Saving**: `evaluate_model` in `helper.py` saves models to `../models/` and plots to `../plots/`.
+- **Model Saving**: `evaluate_model` in `helper.py` saves models to `../models/`.
 
 ## Project Structure (Context)
 The `notebook` folder is part of a larger project:
@@ -140,7 +127,7 @@ The `notebook` folder is part of a larger project:
 ├── data/
 │   |── diabetes.csv
 ├── models/
-│   └── rf_model.pkl
+│   └── model.pkl
 ├── notebook/
 │   ├── 01_data_exploration.ipynb
 │   ├── 02_preprocessing_training.ipynb
@@ -164,13 +151,13 @@ The `notebook` folder is part of a larger project:
 - **FileNotFoundError**: If `diabetes.csv` is missing, download it and place it in `../data/raw/`. Verify paths in notebooks.
 - **Import Error**: Ensure `helper.py` is in `notebook/helper/` and dependencies are installed.
 - **Plotting Issues**: Check `../plots/` permissions. In Colab, use `%matplotlib inline`.
-- **Model Saving**: Confirm `evaluate_model` saves `rf_model.pkl` to `../models/`.
+- **Model Saving**: Confirm `evaluate_model` saves `model.pkl` to `../models/`.
 
 ## Next Steps
 - **Share Helper Code**: Provide `helper.py` for detailed function descriptions.
 - **Run Notebooks**: Execute `01_data_exploration.ipynb` and `02_preprocessing_training.ipynb` to generate outputs.
 - **Extend Workflow**: Request a `03_model_training.ipynb` for DNN training or hyperparameter tuning.
 - **Feedback**: Report errors (e.g., path issues, import failures) with logs or screenshots for troubleshooting.
-- **Web App**: Continue using the FastAPI app (`app.py`, `index.html`) for predictions, leveraging `rf_model.pkl`.
+- **Web App**: Continue using the FastAPI app (`app.py`, `index.html`) for predictions, leveraging `model.pkl`.
 
 For questions or assistance, contact the project maintainer or share details via the repository’s issue tracker.
