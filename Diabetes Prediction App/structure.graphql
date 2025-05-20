@@ -1,0 +1,18 @@
+diabetes_project/
+├── data/
+│   └── diabetes.csv
+├── models/
+│   └── model.pkl
+|   └── scaler.pkl
+│
+├── notebook/
+│   ├── 01_data_exploration.ipynb
+│   ├── 02_preprocessing_training.ipynb
+│   ├── helper/
+│   │   └── helper.py
+│   └── README.md
+│
+├── templates/
+│   └── index.html
+│
+└── app.py
