@@ -38,7 +38,7 @@ notebook/
   - K-Nearest Neighbors (`KNeighborsClassifier`, k=5).
   - Support Vector Machine (`SVC`, RBF kernel).
 - **Evaluate Models**: Uses `evaluate_model` (from `helper.py`) to compute ROC curves (FPR, TPR, AUC) and accuracy, with scaling for KNN and SVM.
-- **Visualize Results**: Calls `plot_model_comparisons` (from `helper.py`) to generate ROC curve plots, saved to `../plots/` (e.g., `model_comparisons.png`).
+- **Visualize Results**: Calls `plot_model_comparisons` (from `helper.py`) to generate ROC curve plots.
 - **Save Outputs**: Saves the Random Forest model to `../models/model.pkl`.
 
 **Outputs**:
