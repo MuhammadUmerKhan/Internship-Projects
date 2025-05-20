@@ -17,7 +17,7 @@ notebook/
 **Purpose**: Perform exploratory data analysis (EDA) on the Diabetes Dataset to understand its structure, distributions, and issues.
 
 **Key Tasks**:
-- **Load Data**: Reads the dataset (`diabetes.csv`) from `../data/raw/` (expected to be in `/content/drive/MyDrive/diabetes_project/data/raw/` in Colab).
+- **Load Data**: Reads the dataset (`diabetes.csv`) from `../data/raw/` (expected to be in `diabetes_project/data/raw/` in Colab).
 - **Inspect Data**: Displays shape (768 rows, 9 columns: 8 features + `Outcome`), data types, and first few rows.
 - **Analyze Distributions**: Generates histograms for features (e.g., `Glucose`, `BMI`) and a class distribution plot for `Outcome` (~65% non-diabetic, ~35% diabetic).
 - **Identify Issues**: Detects zeros in `Glucose`, `BloodPressure`, `SkinThickness`, `Insulin`, and `BMI` (~35% zeros in `Insulin`, ~30% in `SkinThickness`), indicating implicit missing values.
@@ -115,7 +115,7 @@ The notebooks represent the initial stages of a diabetes prediction pipeline:
 
 ## Assumptions
 - **Environment**: Notebooks are designed for Google Colab with Google Drive mounted.
-- **Data Path**: `diabetes.csv` is in `../data/raw/` relative to the notebook folder (e.g., `/content/drive/MyDrive/diabetes_project/data`).
+- **Data Path**: `diabetes.csv` is in `../data/raw/` relative to the notebook folder (e.g., `diabetes_project/data`).
 - **Helper Functions**: `helper.py` is correctly implemented and accessible via `from helper.helper import evaluate_model, plot_model_comparisons`.
 - **Dependencies**: All required libraries are installed (`pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`, `imblearn`).
 - **Model Saving**: `evaluate_model` in `helper.py` saves models to `../models/`.
@@ -123,7 +123,7 @@ The notebooks represent the initial stages of a diabetes prediction pipeline:
 ## Project Structure (Context)
 The `notebook` folder is part of a larger project:
 ```
-/content/drive/MyDrive/diabetes_project/
+diabetes_project/
 ├── data/
 │   |── diabetes.csv
 ├── models/
@@ -142,7 +142,7 @@ The `notebook` folder is part of a larger project:
 - **Execution Time**: 
   - `01_data_exploration.ipynb`: ~30–60 seconds (EDA, plotting).
   - `02_preprocessing_training.ipynb`: ~1–2 minutes (preprocessing, model training).
-- **Colab Path**: Update paths in notebooks if not using `/content/drive/MyDrive/diabetes_project/` (e.g., set `raw_data_path = "/content/drive/MyDrive/your_path/data/raw"`).
+- **Colab Path**: Update paths in notebooks if not using `diabetes_project/` (e.g., set `raw_data_path = "your_path/data/raw"`).
 - **Helper Dependency**: Without `helper.py` content, I assume `evaluate_model` and `plot_model_comparisons` handle scaling, evaluation, and plotting. Share `helper.py` for precise documentation.
 - **Outputs**: Ensure write permissions for `../plots/`, `../models/`, and `../results/` in Colab.
 - **Next Notebook**: A `03_model_training.ipynb` could tune models or train a DNN, using outputs from `02_preprocessing_training.ipynb`.
