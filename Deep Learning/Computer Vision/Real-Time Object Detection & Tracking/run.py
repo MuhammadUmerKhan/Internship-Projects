@@ -50,11 +50,6 @@ body {
     color: #00e676;
     margin-bottom: 1rem;
 }
-.video-frame {
-    border: 2px solid #00e676;
-    border-radius: 8px;
-    margin-bottom: 20px;
-}
 .metrics {
     display: flex;
     justify-content: center;
@@ -102,9 +97,11 @@ body {
 """, unsafe_allow_html=True)
 
 # Session state
-for key in ["streaming", "camera", "detector", "tracker", "logger_csv"]:
+for key in ["streaming", "camera", "detector", "tracker", "logger_csv", "unique_track_ids"]:
     if key not in st.session_state:
         st.session_state[key] = None if key != "streaming" else False
+        if key == "unique_track_ids":
+            st.session_state[key] = set()
 
 # Tabs
 intro_tab, stream_tab = st.tabs(["📘 Overview", "🎥 Live Stream"])
@@ -136,7 +133,7 @@ with intro_tab:
     ### 🚀 How To Use:
     1. Go to the **🎥 Live Stream** tab
     2. Click **▶️ Start Stream** to begin surveillance
-    3. Watch real-time detections & tracking IDs appear on screen
+    3. Watch real-time detections & tracking IDs in the OpenCV window
     4. Click **⏹️ Stop Stream** to end the session and finalize logs
 
     ### 📦 Prerequisites:
@@ -169,39 +166,49 @@ with stream_tab:
             st.session_state.tracker = Tracker()
             st.session_state.logger_csv = Logger(CSV_LOG_FILE)
             st.session_state.streaming = True
+            st.session_state.unique_track_ids = set()
             logger.info("Stream initialized.")
         except Exception as e:
             logger.error(f"Init failed: {e}")
             st.error(f"Initialization failed: {e}")
+            st.session_state.streaming = False
 
     if stop_button and st.session_state.streaming:
         if st.session_state.camera:
             st.session_state.camera.release()
         for key in ["streaming", "camera", "detector", "tracker", "logger_csv"]:
             st.session_state[key] = None if key != "streaming" else False
+        st.session_state.unique_track_ids = set()
+        cv2.destroyAllWindows()
         logger.info("Stream stopped.")
 
-    video_placeholder = st.empty()
     metrics_placeholder = st.empty()
     status_placeholder = st.empty()
 
     if st.session_state.streaming and st.session_state.camera:
-        status_placeholder.markdown('<div class="status">✅ Stream Active — Detecting and Logging</div>', unsafe_allow_html=True)
+        status_placeholder.markdown('<div class="status">✅ Stream Active — Detecting and Logging (Check OpenCV Window)</div>', unsafe_allow_html=True)
         while st.session_state.streaming:
             try:
                 frame = st.session_state.camera.get_frame()
                 if frame is None:
+                    logger.warning("Skipping frame due to capture failure")
+                    status_placeholder.markdown('<div class="status">⚠️ No Frame Captured</div>', unsafe_allow_html=True)
                     continue
+
                 detections = st.session_state.detector.detect(frame)
                 tracks = st.session_state.tracker.update(detections, frame)
                 confirmed_tracks = [track for track in tracks if track.is_confirmed()]
 
+                # Update unique track IDs
                 for track in confirmed_tracks:
+                    st.session_state.unique_track_ids.add(track.track_id)
                     st.session_state.logger_csv.log(track.track_id)
 
-                frame = draw_boxes(frame, tracks)
-                rgb_frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
-                video_placeholder.image(rgb_frame, channels="RGB", use_column_width=True, caption="📹 Real-Time Video Feed")
+                # Draw boxes and total count on frame
+                frame = draw_boxes(frame, tracks, total_count=len(st.session_state.unique_track_ids))
+
+                # Display in OpenCV window
+                cv2.imshow("AI Surveillance", frame)
 
                 metrics_placeholder.markdown(f"""
                 <div class='metrics'>
@@ -210,10 +217,22 @@ with stream_tab:
                 </div>
                 """, unsafe_allow_html=True)
 
+                # Check for 'q' key or stop button
+                if cv2.waitKey(30) & 0xFF == ord('q'):
+                    logger.info("User requested exit via OpenCV window")
+                    st.session_state.streaming = False
+                    break
+
             except Exception as e:
                 logger.error(f"Streaming error: {e}")
                 status_placeholder.markdown(f'<div class="status">❌ Error: {e}</div>', unsafe_allow_html=True)
+                st.session_state.streaming = False
                 break
+
+        # Cleanup after loop
+        if st.session_state.camera:
+            st.session_state.camera.release()
+        cv2.destroyAllWindows()
     else:
         status_placeholder.markdown('<div class="status">⛔ Stream Stopped</div>', unsafe_allow_html=True)
 
@@ -222,4 +241,5 @@ with stream_tab:
 def cleanup():
     if st.session_state.camera:
         st.session_state.camera.release()
+    cv2.destroyAllWindows()
     logger.info("Cleaned up resources.")
