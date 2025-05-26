@@ -9,29 +9,30 @@ import os
 # Initialize FastAPI app
 app = FastAPI(
     title="Diabetes Prediction App",
-    description="Predict diabetes risk using a trained Random Forest model.",
+    description="Predict diabetes risk using a trained SVC model.",
     version="1.0.0"
 )
 
 # Initialize templates
 templates = Jinja2Templates(directory="templates")
 
-# Load Random Forest model
-MODEL_PATH = os.path.join("scaler", "model.pkl")
+# Load SVC model and scaler
+MODEL_PATH = os.path.join("scaler", "model_SVC.pkl")
+SCALER_PATH = os.path.join("scaler", "scaler_SVC.pkl")
 
-if not os.path.exists(MODEL_PATH):
-    raise FileNotFoundError("Model file not found. Ensure 'models/rf_model.pkl' exists.")
+if not (os.path.exists(MODEL_PATH) and os.path.exists(SCALER_PATH)):
+    raise FileNotFoundError("Model or scaler file not found. Ensure 'scaler/model_SVC.pkl' and 'scaler/scaler_SVC.pkl' exist.")
 
 model = joblib.load(MODEL_PATH)
+scaler = joblib.load(SCALER_PATH)
 
-# Feature names and constraints
+# Feature names and constraints (excluding Glucose)
 FEATURES = [
-    "Pregnancies", "Glucose", "BloodPressure", "SkinThickness",
+    "Pregnancies", "BloodPressure", "SkinThickness",
     "Insulin", "BMI", "DiabetesPedigreeFunction", "Age"
 ]
 CONSTRAINTS = {
     "Pregnancies": {"min": 0, "max": 20, "type": "int"},
-    "Glucose": {"min": 0, "max": 300, "type": "float"},
     "BloodPressure": {"min": 0, "max": 150, "type": "float"},
     "SkinThickness": {"min": 0, "max": 100, "type": "float"},
     "Insulin": {"min": 0, "max": 1000, "type": "float"},
@@ -52,7 +53,6 @@ async def read_root(request: Request):
 async def predict(
     request: Request,
     Pregnancies: float = Form(...),
-    Glucose: float = Form(...),
     BloodPressure: float = Form(...),
     SkinThickness: float = Form(...),
     Insulin: float = Form(...),
@@ -65,7 +65,6 @@ async def predict(
         # Collect input data
         inputs = {
             "Pregnancies": Pregnancies,
-            "Glucose": Glucose,
             "BloodPressure": BloodPressure,
             "SkinThickness": SkinThickness,
             "Insulin": Insulin,
@@ -103,15 +102,17 @@ async def predict(
                     }
                 )
 
-        # Prepare input array
+        # Prepare input array (excluding Glucose)
         input_data = np.array([[
-            inputs["Pregnancies"], inputs["Glucose"], inputs["BloodPressure"],
-            inputs["SkinThickness"], inputs["Insulin"], inputs["BMI"],
-            inputs["DiabetesPedigreeFunction"], inputs["Age"]
+            inputs["Pregnancies"], inputs["BloodPressure"], inputs["SkinThickness"],
+            inputs["Insulin"], inputs["BMI"], inputs["DiabetesPedigreeFunction"], inputs["Age"]
         ]])
 
-        # Make prediction
-        prediction_proba = model.predict_proba(input_data)[0][1]  # Probability of Diabetic (class 1)
+        # Scale the input data
+        input_data_scaled = scaler.transform(input_data)
+
+        # Make prediction with SVC
+        prediction_proba = model.predict_proba(input_data_scaled)[0][1]  # Probability of Diabetic (class 1)
         prediction = "Diabetic" if prediction_proba > 0.5 else "Non-Diabetic"
         confidence = prediction_proba if prediction == "Diabetic" else 1 - prediction_proba
 
