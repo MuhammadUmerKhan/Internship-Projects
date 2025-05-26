@@ -159,3 +159,54 @@ The scene depicts a serene alpine lake nestled within a rugged mountain valley, 
 - **Scene Type:** High-altitude natural landscape, emphasizing glacial and erosional geological features.  
 
 This description prioritizes specificity in terrain, geological context, and environmental atmosphere while avoiding overused adjectives.
+2025-05-23 19:55:26,339 [INFO] ✅ Model Found!
+2025-05-23 19:55:27,277 [INFO] ✅ API Key Found!
+2025-05-23 19:55:27,278 [ERROR] ❌ partially initialized module 'utils.utils' has no attribute 'configure_llm' (most likely due to a circular import)
+2025-05-23 19:55:53,321 [INFO] ✅ Image Opened!
+2025-05-23 19:56:02,291 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-23 19:56:08,144 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-23 19:56:08,161 [INFO] 📝 Refined Caption: 
+
+**Image Description:**  
+The scene portrays a serene alpine lake nestled within a rugged mountain valley, its still, turquoise waters acting as a mirror to the dramatic snow-capped peaks that encircle the basin. Jagged, rocky ridges and glacially carved slopes frame the foreground, while a distant range of towering, craggy mountains rises sharply against a clear, cloud-dappled sky. Patches of evergreen forest and pockets of alpine vegetation cling to the lower slopes, contrasting with the stark, weathered rock faces. The composition emphasizes the interplay of light and shadow across the landscape, with the lake’s reflective surface capturing the grandeur of the surrounding terrain. This high-altitude setting evokes a sense of isolation and geological time, underscored by the presence of glacial valleys and the enduring grandeur of the mountain backdrop.  
+
+**Key Elements:**  
+- **Foreground:** A placid alpine lake with vivid turquoise waters, reflecting surrounding peaks.  
+- **Midground:** Jagged, rocky slopes and glacial moraines, interspersed with pockets of hardy alpine flora.  
+- **Background:** A towering mountain range with snow-dusted summits and steep, eroded ridges.  
+- **Context:** A remote, high-altitude environment, likely in a region with glacial geological history, such as the Rockies or the Alps.  
+- **Scene Type:** Pristine natural landscape, emphasizing geological and ecological features of an alpine ecosystem.  
+
+This description avoids generic terms, highlights specific visual and contextual details, and conveys the scale and tranquility of the environment through precise, evocative language.
+2025-05-23 20:04:39,543 [INFO] ✅ Model Found!
+2025-05-23 20:04:40,658 [INFO] ✅ API Key Found!
+2025-05-23 20:04:40,658 [ERROR] ❌ partially initialized module 'utils.utils' has no attribute 'configure_llm' (most likely due to a circular import)
+2025-05-23 20:05:19,239 [INFO] ✅ Image Opened!
+2025-05-23 20:05:27,923 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-23 20:05:31,750 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-23 20:05:31,767 [INFO] 📝 Refined Caption: 
+
+**Image Description:**  
+The scene depicts a serene alpine lake nestled within a rugged mountain valley, its glassy surface reflecting the dramatic peaks that encircle it. The foreground features a still, turquoise expanse of water, its clarity suggesting glacial origins, while weathered boulders and patches of emerald alpine vegetation line the shoreline. Towering snow-capped summits dominate the backdrop, their jagged silhouettes piercing a cerulean sky, with wisps of cloud clinging to the highest ridges. The interplay of light and shadow across the rock faces highlights the mountains' craggy texture, while the lake’s mirror-like quality captures the grandeur of the surrounding terrain. This high-altitude landscape evokes a remote, untouched wilderness, characteristic of regions such as the Rockies or the Andes, where glacial lakes and alpine ecosystems thrive. The composition emphasizes both the tranquility of the water and the imposing scale of the peaks, creating a harmonious yet awe-inspiring natural tableau.  
+
+**Key Elements:**  
+- **Foreground:** A pristine alpine lake with glacial turquoise waters, bordered by rocky outcrops and low-lying alpine flora.  
+- **Midground/Background:** A ring of steep, snow-dusted peaks with angular ridges, their slopes transitioning from summer-green to winter-white.  
+- **Context:** Likely a subarctic or temperate mountain range during summer, with clear atmospheric conditions enhancing the reflective quality of the water.  
+- **Scene Type:** A natural, high-altitude alpine environment emphasizing geological and hydrological features.  
+
+This description avoids generic terms by specifying geological and ecological details, while maintaining a vivid, spatially layered narrative.
+2025-05-26 11:40:56,662 [INFO] ✅ Model Found!
+2025-05-26 11:40:57,513 [INFO] ✅ API Key Found!
+2025-05-26 11:40:57,513 [ERROR] ❌ partially initialized module 'utils.utils' has no attribute 'configure_llm' (most likely due to a circular import)
+2025-05-26 11:41:47,755 [INFO] ✅ Image Opened!
+2025-05-26 11:41:52,620 [INFO] ✅ Qwen-qwq-32b Loaded!
+2025-05-26 11:41:55,340 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-26 11:41:55,348 [INFO] 📝 Refined Caption: 
+
+- **Background**: A distant range of snow-capped peaks rises sharply against a clear, azure sky, forming a dramatic horizon line.  
+- **Foreground/Objects**: A still alpine lake dominates the scene, reflecting the surrounding mountains with mirror-like clarity. Jagged rocky outcrops and sparse alpine vegetation frame the water’s edge.  
+- **Context**: The setting suggests a remote, high-altitude environment, likely in a region such as the Rockies, Alps, or Himalayas. Dappled sunlight and wisps of mist enhance the sense of tranquility and grandeur.  
+- **Scene Type**: Pristine alpine landscape, characterized by glacial morphology and a stark contrast between the serene waters and rugged, snow-dusted peaks.  
+
+**Tone/Atmosphere**: Serene yet awe-inspiring, emphasizing natural grandeur and geological scale.
