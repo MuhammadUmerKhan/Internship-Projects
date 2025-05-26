@@ -31,10 +31,12 @@ def generate_scene(caption):
                 HumanMessage(content=f"""
                     The raw image caption is: '{caption}'.
 
-                    Now describe the image in a professional, and well-structured way, always response in english language.
-                    - Include background, objects, context, scene type (if possible)
-                    - Avoid generic phrases
-                    - Keep the tone descriptive and natural
+                    Describe the image concisely in a professional, well-structured manner, using English.
+
+                    Highlight key elements: background, objects, context, and scene type (if identifiable).
+                    Avoid vague or generic terms.
+                    Maintain a clear, natural, and descriptive tone.
+                    Use bullet points for clarity and brevity.
                 """)
             ]
         
