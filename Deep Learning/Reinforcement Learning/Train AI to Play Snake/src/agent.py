@@ -7,7 +7,7 @@ import logging
 from game import SnakeGameAI, Direction, Point
 from model import Linear_QNet, QTrainer
 from utils import plot_training
-from config import MAX_MEMORY, BATCH_SIZE, LEARNING_RATE, GAMMA, EPSILON_START, INPUT_SIZE, HIDDEN_SIZE, OUTPUT_SIZE
+from config import MAX_MEMORY, BATCH_SIZE, LEARNING_RATE, GAMMA, EPSILON_START, INPUT_SIZE, HIDDEN_SIZE, OUTPUT_SIZE, IMPROVEMENT_THRESHOLD, GAMES_PLAYED, CHECK_SCORE_AFTER
 
 class Agent:
     def __init__(self):
@@ -112,6 +112,8 @@ def train():
         plot_mean_scores = []
         total_score = 0
         record = 0
+        recent_scores = []  # Store last 10 scores
+        avg_scores = []    # Store average scores for comparison
         agent = Agent()
         game = SnakeGameAI()
         logger.info("Starting training")
@@ -138,6 +140,29 @@ def train():
                 total_score += score
                 mean_score = total_score / agent.n_games
                 plot_mean_scores.append(mean_score)
+                recent_scores.append(score)
+
+                # Keep only the last 10 scores
+                if len(recent_scores) > CHECK_SCORE_AFTER:
+                    recent_scores.pop(0)
+
+                # Check average score after 150 games, every 10 games
+                if agent.n_games >= GAMES_PLAYED and agent.n_games % CHECK_SCORE_AFTER == 0 and len(recent_scores) == CHECK_SCORE_AFTER:
+                    current_avg = sum(recent_scores) / CHECK_SCORE_AFTER
+                    logger.info(f"Game {agent.n_games}: Average score over last {CHECK_SCORE_AFTER} games: {current_avg:.2f}")
+
+                    if avg_scores:  # Compare with previous average
+                        prev_avg = avg_scores[-1]
+                        improvement = (current_avg - prev_avg) / prev_avg if prev_avg > 0 else float('inf')
+                        logger.info(f"Improvement: {improvement*100:.1f}% (Threshold: {IMPROVEMENT_THRESHOLD*100}%)")
+                        if improvement < IMPROVEMENT_THRESHOLD:
+                            logger.info("No significant improvement in average score. Stopping training.")
+                            agent.model.save()  # Save model before stopping
+                            pygame.quit()
+                            return
+
+                    avg_scores.append(current_avg)
+
                 plot_training(plot_scores, plot_mean_scores, record)
     except KeyboardInterrupt:
         logger.info("Training interrupted by user")
