@@ -54,7 +54,7 @@ Welcome to the **Image-to-Text Search** project! 🎉 This application transform
 ## 🚀 Usage
 1. Run the Streamlit app:
    ```bash
-   streamlit run app/main.py
+   streamlit run main.py
    ```
 2. Open your browser (usually at `http://localhost:8501`).
 3. Navigate to the "Upload Image" tab, upload an image, and view the generated scene description.
