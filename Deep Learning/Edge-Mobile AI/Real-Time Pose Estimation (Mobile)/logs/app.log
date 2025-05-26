@@ -102,3 +102,51 @@
 2025-05-18 15:22:42,107 - __main__ - INFO - Entered Webcam tab
 2025-05-18 15:22:42,873 - __main__ - INFO - Cleaned up temporary video file
 2025-05-18 15:22:44,949 - __main__ - INFO - Starting Streamlit app
+2025-05-23 19:59:20,907 - __main__ - INFO - Starting Streamlit app
+2025-05-23 19:59:27,726 - __main__ - INFO - Starting Streamlit app
+2025-05-23 19:59:27,815 - pose_estimator - INFO - PoseEstimator initialized successfully
+2025-05-23 19:59:27,816 - __main__ - INFO - Pose estimator initialized successfully
+2025-05-23 19:59:27,818 - __main__ - INFO - Entered Video Upload tab
+2025-05-23 19:59:27,821 - __main__ - INFO - Entered Webcam tab
+2025-05-23 19:59:32,332 - __main__ - INFO - Starting Streamlit app
+2025-05-23 19:59:32,355 - pose_estimator - INFO - PoseEstimator initialized successfully
+2025-05-23 19:59:32,356 - __main__ - INFO - Pose estimator initialized successfully
+2025-05-23 19:59:32,357 - __main__ - INFO - Entered Video Upload tab
+2025-05-23 19:59:32,359 - __main__ - INFO - Entered Webcam tab
+2025-05-23 19:59:32,441 - __main__ - ERROR - Failed to access webcam
+2025-05-23 19:59:35,651 - __main__ - INFO - Starting Streamlit app
+2025-05-23 19:59:35,671 - pose_estimator - INFO - PoseEstimator initialized successfully
+2025-05-23 19:59:35,672 - __main__ - INFO - Pose estimator initialized successfully
+2025-05-23 19:59:35,673 - __main__ - INFO - Entered Video Upload tab
+2025-05-23 19:59:35,678 - __main__ - INFO - Entered Webcam tab
+2025-05-23 19:59:35,690 - __main__ - ERROR - Failed to access webcam
+2025-05-23 20:19:54,135 - __main__ - INFO - Starting Streamlit app
+2025-05-23 20:19:59,920 - __main__ - INFO - Starting Streamlit app
+2025-05-23 20:20:00,027 - pose_estimator - INFO - PoseEstimator initialized successfully
+2025-05-23 20:20:00,030 - __main__ - INFO - Pose estimator initialized successfully
+2025-05-23 20:20:00,037 - __main__ - INFO - Entered Video Upload tab
+2025-05-23 20:20:00,044 - __main__ - INFO - Entered Webcam tab
+2025-05-23 20:20:02,855 - __main__ - INFO - Starting Streamlit app
+2025-05-23 20:20:02,871 - pose_estimator - INFO - PoseEstimator initialized successfully
+2025-05-23 20:20:02,873 - __main__ - INFO - Pose estimator initialized successfully
+2025-05-23 20:20:02,876 - __main__ - INFO - Entered Video Upload tab
+2025-05-23 20:20:02,881 - __main__ - INFO - Entered Webcam tab
+2025-05-23 20:20:17,795 - __main__ - INFO - Starting Streamlit app
+2025-05-23 20:20:17,819 - pose_estimator - INFO - PoseEstimator initialized successfully
+2025-05-23 20:20:17,820 - __main__ - INFO - Pose estimator initialized successfully
+2025-05-23 20:20:17,821 - __main__ - INFO - Entered Video Upload tab
+2025-05-23 20:20:17,823 - __main__ - INFO - Entered Webcam tab
+2025-05-23 20:20:17,832 - __main__ - ERROR - Failed to access webcam
+2025-05-23 20:20:18,577 - __main__ - INFO - Webcam resources released
+2025-05-23 20:20:28,644 - __main__ - INFO - Starting Streamlit app
+2025-05-23 20:20:28,675 - pose_estimator - INFO - PoseEstimator initialized successfully
+2025-05-23 20:20:28,678 - __main__ - INFO - Pose estimator initialized successfully
+2025-05-23 20:20:28,683 - __main__ - INFO - Entered Video Upload tab
+2025-05-23 20:20:28,695 - __main__ - INFO - Uploaded video saved as temp_video.mp4
+2025-05-23 20:20:40,245 - __main__ - INFO - Video processing completed and temp file removed
+2025-05-23 20:20:40,249 - __main__ - INFO - Entered Webcam tab
+2025-05-23 20:20:54,286 - __main__ - INFO - Starting Streamlit app
+2025-05-23 20:20:54,307 - pose_estimator - INFO - PoseEstimator initialized successfully
+2025-05-23 20:20:54,307 - __main__ - INFO - Pose estimator initialized successfully
+2025-05-23 20:20:54,311 - __main__ - INFO - Entered Video Upload tab
+2025-05-23 20:20:54,315 - __main__ - INFO - Entered Webcam tab
