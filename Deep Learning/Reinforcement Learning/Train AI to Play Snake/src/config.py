@@ -12,6 +12,9 @@ BATCH_SIZE = 1000
 LEARNING_RATE = 0.001
 GAMMA = 0.9
 EPSILON_START = 80
+IMPROVEMENT_THRESHOLD = 0.1  # 10% improvement in average score
+GAMES_PLAYED = 50  # Start checking average score after 150 games
+CHECK_SCORE_AFTER = 10  # Check average score every 10 games
 
 # Model settings
 INPUT_SIZE = 11
