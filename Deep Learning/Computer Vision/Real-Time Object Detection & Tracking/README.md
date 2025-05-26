@@ -81,7 +81,7 @@ The project offers two ways to run the application: via the **Streamlit web inte
 ### Option 1: Streamlit Web Interface 🌐
 1. Run the Streamlit app:
    ```bash
-   streamlit run app/run.py
+   streamlit run run.py
    ```
 2. Open `http://localhost:8501` in a browser.
 3. Navigate to the **Overview** tab to learn about the project. 📘
